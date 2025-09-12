@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
 
             {/* Bottom Copyright & Socials */}
-            <div className="text-center text-sm text-gray-400 mt-10 border-t border-green-800 pt-6 flex flex-col sm:flex-row justify-between items-center">
+            <div className="text-center text-sm text-gray-100 mt-10 border-t border-green-800 pt-6 sm:flex-row">
                 <p>© {new Date().getFullYear()} JIED India. All rights reserved.</p>
                 {/* <div className="flex gap-5 mt-4 sm:mt-0">
                     <a href="https://facebook.com/jhainstrument" target="_blank" rel="noopener noreferrer" className="hover:text-white transition"><FacebookIcon /></a>
