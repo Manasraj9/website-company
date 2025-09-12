@@ -1,0 +1,765 @@
+{
+  "Lighting": {
+    "Domestic LED Light Driver": [
+      {
+        "id": "L1",
+        "part_no": "JIED-L-D-001",
+        "title": "Domestic LED Light Driver 5W",
+        "description": "High-efficiency driver for domestic LED lights.",
+        "features": ["Over-voltage protection", "Compact design"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "12V DC 5W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "5W",
+        "max_vdd": "24V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "DIP-8",
+        "applications": ["Downlights", "Decorative Lighting"],
+        "pdf_link": "/pdfs/lighting/domestic5w.pdf",
+        "form_link": "/forms/lighting/domestic5w"
+      },
+      {
+        "id": "L1-2",
+        "part_no": "JIED-L-D-002",
+        "title": "Domestic LED Light Driver 10W",
+        "description": "High-efficiency driver for domestic LED lights.",
+        "features": ["Over-voltage protection", "Compact design"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "12V DC 10W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "10W",
+        "max_vdd": "24V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "DIP-8",
+        "applications": ["Downlights", "Decorative Lighting"],
+        "pdf_link": "/pdfs/lighting/domestic10w.pdf",
+        "form_link": "/forms/lighting/domestic10w"
+      }
+    ],
+    "Industrial LED Light Driver": [
+      {
+        "id": "L2",
+        "part_no": "JIED-L-I-001",
+        "title": "Industrial LED Light Driver 50W",
+        "description": "Rugged industrial driver for heavy-duty LED lighting.",
+        "features": ["Thermal cutoff", "High power factor"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "48V DC 50W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "50W",
+        "max_vdd": "60V",
+        "startup_method": "Hard Start",
+        "max_frequency": "150kHz",
+        "standby_power": "<1W",
+        "mos_gan": "GaN",
+        "package": "TO-220",
+        "applications": ["High Bay Lighting", "Street Lighting"],
+        "pdf_link": "/pdfs/lighting/industrial50w.pdf",
+        "form_link": "/forms/lighting/industrial50w"
+      }
+    ],
+    "Signaling LED Light Driver": [
+      {
+        "id": "L3",
+        "part_no": "JIED-L-S-001",
+        "title": "Signaling LED Light Driver 10W",
+        "description": "Reliable driver for signaling applications.",
+        "features": ["Constant current output", "IP67 rated"],
+        "specifications": {
+          "Input Voltage": "24V DC",
+          "Output": "10W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "10W",
+        "max_vdd": "30V",
+        "startup_method": "Soft Start",
+        "max_frequency": "80kHz",
+        "standby_power": "<0.3W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Traffic Lights", "Emergency Lighting"],
+        "pdf_link": "/pdfs/lighting/signaling10w.pdf",
+        "form_link": "/forms/lighting/signaling10w"
+      }
+    ],
+    "Automotive LED Light Driver": [
+      {
+        "id": "L4",
+        "part_no": "JIED-L-A-001",
+        "title": "Automotive LED Light Driver 20W",
+        "description": "Driver for automotive LED lighting systems.",
+        "features": ["Vibration resistant", "Wide temperature range"],
+        "specifications": {
+          "Input Voltage": "12V DC",
+          "Output": "20W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "20W",
+        "max_vdd": "18V",
+        "startup_method": "Soft Start",
+        "max_frequency": "120kHz",
+        "standby_power": "<0.2W",
+        "mos_gan": "MOS",
+        "package": "QFN-16",
+        "applications": ["Headlights", "Tail Lights"],
+        "pdf_link": "/pdfs/lighting/automotive20w.pdf",
+        "form_link": "/forms/lighting/automotive20w"
+      }
+    ],
+    "DC LED Light Driver": [
+      {
+        "id": "L5",
+        "part_no": "JIED-L-DC-001",
+        "title": "DC LED Light Driver 15W",
+        "description": "Efficient driver for DC powered LED lights.",
+        "features": ["Low ripple", "Short circuit protection"],
+        "specifications": {
+          "Input Voltage": "12-24V DC",
+          "Output": "15W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "15W",
+        "max_vdd": "28V",
+        "startup_method": "Soft Start",
+        "max_frequency": "90kHz",
+        "standby_power": "<0.3W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Solar Lighting", "Battery Powered Devices"],
+        "pdf_link": "/pdfs/lighting/dc15w.pdf",
+        "form_link": "/forms/lighting/dc15w"
+      }
+    ],
+    "Rail": [
+      {
+        "id": "L6",
+        "part_no": "JIED-L-R-001",
+        "title": "Rail Lighting Driver 30W",
+        "description": "Driver for railway lighting applications.",
+        "features": ["EN 50155 compliant", "High reliability"],
+        "specifications": {
+          "Input Voltage": "110V DC",
+          "Output": "30W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "30W",
+        "max_vdd": "120V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "TO-263",
+        "applications": ["Train Interior Lighting", "Platform Lighting"],
+        "pdf_link": "/pdfs/lighting/rail30w.pdf",
+        "form_link": "/forms/lighting/rail30w"
+      }
+    ]
+  },
+  "Solar": {
+    "Charge Controller": [
+      {
+        "id": "S1",
+        "part_no": "JIED-S-CC-001",
+        "title": "Solar Charge Controller 10A",
+        "description": "Protects batteries and regulates charging.",
+        "features": ["PWM charging", "LCD display"],
+        "specifications": {
+          "Current": "10A",
+          "System Voltage": "12V/24V"
+        },
+        "operating_mode": "PWM",
+        "max_power": "120W/240W",
+        "max_vdd": "50V",
+        "startup_method": "- ",
+        "max_frequency": "- ",
+        "standby_power": "<10mA",
+        "mos_gan": "MOS",
+        "package": "Box",
+        "applications": ["Off-grid solar systems", "Solar street lights"],
+        "pdf_link": "/pdfs/solar/chargecontroller10a.pdf",
+        "form_link": "/forms/solar/chargecontroller10a"
+      }
+    ],
+    "LED Driver": [
+      {
+        "id": "S2",
+        "part_no": "JIED-S-LD-001",
+        "title": "Solar LED Driver 12W",
+        "description": "Driver for solar-powered LED lighting.",
+        "features": ["Dusk to dawn operation", "High efficiency"],
+        "specifications": {
+          "Input Voltage": "12V DC",
+          "Output": "12W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "12W",
+        "max_vdd": "20V",
+        "startup_method": "Soft Start",
+        "max_frequency": "80kHz",
+        "standby_power": "<0.1W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Solar Garden Lights", "Solar Street Lights"],
+        "pdf_link": "/pdfs/solar/leddriver12w.pdf",
+        "form_link": "/forms/solar/leddriver12w"
+      }
+    ],
+    "Inverter": [
+      {
+        "id": "S3",
+        "part_no": "JIED-S-INV-001",
+        "title": "Solar Inverter 500W",
+        "description": "Converts DC power from solar panels to AC power.",
+        "features": ["Pure sine wave", "Overload protection"],
+        "specifications": {
+          "Power": "500W",
+          "Input Voltage": "12V DC"
+        },
+        "operating_mode": "Pure Sine Wave",
+        "max_power": "500W",
+        "max_vdd": "15V",
+        "startup_method": "Soft Start",
+        "max_frequency": "50Hz/60Hz",
+        "standby_power": "<5W",
+        "mos_gan": "MOS",
+        "package": "Enclosed",
+        "applications": ["Home Solar Systems", "Small Appliances"],
+        "pdf_link": "/pdfs/solar/inverter500w.pdf",
+        "form_link": "/forms/solar/inverter500w"
+      }
+    ],
+    "DC-DC converter": [
+      {
+        "id": "S4",
+        "part_no": "JIED-S-DCDC-001",
+        "title": "Solar DC-DC Converter 100W",
+        "description": "Efficiently converts DC voltages in solar systems.",
+        "features": ["Wide input range", "High efficiency"],
+        "specifications": {
+          "Power": "100W",
+          "Input Voltage": "12-48V DC"
+        },
+        "operating_mode": "Buck-Boost",
+        "max_power": "100W",
+        "max_vdd": "60V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Battery Charging", "Voltage Regulation"],
+        "pdf_link": "/pdfs/solar/dcdc100w.pdf",
+        "form_link": "/forms/solar/dcdc100w"
+      }
+    ],
+    "Motor controller (VFD)": [
+      {
+        "id": "S5",
+        "part_no": "JIED-S-VFD-001",
+        "title": "Solar Motor Controller (VFD) 1HP",
+        "description": "Variable frequency drive for solar-powered motors.",
+        "features": ["MPPT tracking", "Dry run protection"],
+        "specifications": {
+          "Motor Power": "1HP",
+          "Input Voltage": "200-400V DC"
+        },
+        "operating_mode": "MPPT VFD",
+        "max_power": "750W",
+        "max_vdd": "450V",
+        "startup_method": "Auto Start",
+        "max_frequency": "400Hz",
+        "standby_power": "<2W",
+        "mos_gan": "IGBT",
+        "package": "Enclosed",
+        "applications": ["Solar Water Pumps", "Industrial Fans"],
+        "pdf_link": "/pdfs/solar/vfd1hp.pdf",
+        "form_link": "/forms/solar/vfd1hp"
+      }
+    ]
+  },
+  "Automotive": {
+    "Light Driver": [
+      {
+        "id": "A1",
+        "part_no": "JIED-A-LD-001",
+        "title": "Automotive Light Driver 10W",
+        "description": "Driver for various automotive lighting applications.",
+        "features": ["CAN bus compatible", "Compact size"],
+        "specifications": {
+          "Input Voltage": "12V DC",
+          "Output": "10W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "10W",
+        "max_vdd": "18V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.1W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["DRL", "Interior Lighting"],
+        "pdf_link": "/pdfs/automotive/lightdriver10w.pdf",
+        "form_link": "/forms/automotive/lightdriver10w"
+      }
+    ],
+    "Motor Controller": [
+      {
+        "id": "A2",
+        "part_no": "JIED-A-MC-001",
+        "title": "Automotive Motor Controller 100A",
+        "description": "Controller for DC motors in automotive systems.",
+        "features": ["Regenerative braking", "Overcurrent protection"],
+        "specifications": {
+          "Current": "100A",
+          "Voltage": "48V DC"
+        },
+        "operating_mode": "PWM Control",
+        "max_power": "4.8kW",
+        "max_vdd": "60V",
+        "startup_method": "Ramp Start",
+        "max_frequency": "20kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Electric Vehicles", "Power Steering"],
+        "pdf_link": "/pdfs/automotive/motorcontroller100a.pdf",
+        "form_link": "/forms/automotive/motorcontroller100a"
+      }
+    ],
+    "Charger": [
+      {
+        "id": "A3",
+        "part_no": "JIED-A-CH-001",
+        "title": "Automotive Battery Charger 12V 5A",
+        "description": "Smart charger for automotive batteries.",
+        "features": ["Multi-stage charging", "Reverse polarity protection"],
+        "specifications": {
+          "Voltage": "12V",
+          "Current": "5A"
+        },
+        "operating_mode": "Constant Voltage/Current",
+        "max_power": "60W",
+        "max_vdd": "15V",
+        "startup_method": "Soft Start",
+        "max_frequency": "- ",
+        "standby_power": "<0.2W",
+        "mos_gan": "MOS",
+        "package": "Enclosed",
+        "applications": ["Car Battery Charging", "Motorcycle Charging"],
+        "pdf_link": "/pdfs/automotive/charger12v5a.pdf",
+        "form_link": "/forms/automotive/charger12v5a"
+      }
+    ],
+    "Sensor": [
+      {
+        "id": "A4",
+        "part_no": "JIED-A-SN-001",
+        "title": "Automotive Temperature Sensor",
+        "description": "High-accuracy temperature sensor for automotive use.",
+        "features": ["-40 to 150°C range", "Analog output"],
+        "specifications": {
+          "Accuracy": "±1°C"
+        },
+        "operating_mode": "Analog Output",
+        "max_power": "- ",
+        "max_vdd": "5V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<1mA",
+        "mos_gan": "N/A",
+        "package": "TO-92",
+        "applications": ["Engine Temperature Monitoring", "Cabin Climate Control"],
+        "pdf_link": "/pdfs/automotive/tempsensor.pdf",
+        "form_link": "/forms/automotive/tempsensor"
+      }
+    ],
+    "Tracking System": [
+      {
+        "id": "A5",
+        "part_no": "JIED-A-TS-001",
+        "title": "GPS Tracking System",
+        "description": "Real-time GPS tracking for vehicles.",
+        "features": ["Geofencing", "Live tracking"],
+        "specifications": {
+          "Network": "4G LTE"
+        },
+        "operating_mode": "GPS/GSM",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Cold Start",
+        "max_frequency": "- ",
+        "standby_power": "<10mA",
+        "mos_gan": "N/A",
+        "package": "Module",
+        "applications": ["Fleet Management", "Vehicle Security"],
+        "pdf_link": "/pdfs/automotive/gpstracker.pdf",
+        "form_link": "/forms/automotive/gpstracker"
+      }
+    ]
+  },
+  "Automation": {
+    "Remote Control Switch": [
+      {
+        "id": "AU1",
+        "part_no": "JIED-AU-RCS-001",
+        "title": "4-Channel Remote Control Switch",
+        "description": "Control up to 4 devices remotely.",
+        "features": ["RF remote", "100m range"],
+        "specifications": {
+          "Channels": "4"
+        },
+        "operating_mode": "RF Control",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "433MHz",
+        "standby_power": "<5mA",
+        "mos_gan": "N/A",
+        "package": "Module",
+        "applications": ["Home Automation", "Industrial Control"],
+        "pdf_link": "/pdfs/automation/remotecontrol4ch.pdf",
+        "form_link": "/forms/automation/remotecontrol4ch"
+      }
+    ],
+    "Light": [
+      {
+        "id": "AU2",
+        "part_no": "JIED-AU-LT-001",
+        "title": "Automated LED Light",
+        "description": "Smart LED light with automation features.",
+        "features": ["App controlled", "Dimmable"],
+        "specifications": {
+          "Wattage": "10W"
+        },
+        "operating_mode": "Smart Control",
+        "max_power": "10W",
+        "max_vdd": "230V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<0.5W",
+        "mos_gan": "N/A",
+        "package": "Bulb",
+        "applications": ["Smart Home Lighting", "Office Lighting"],
+        "pdf_link": "/pdfs/automation/automatedlight10w.pdf",
+        "form_link": "/forms/automation/automatedlight10w"
+      }
+    ],
+    "Security Systems": [
+      {
+        "id": "AU3",
+        "part_no": "JIED-AU-SS-001",
+        "title": "Home Security System",
+        "description": "Complete home security solution.",
+        "features": ["Door/window sensors", "Motion detector"],
+        "specifications": {
+          "Alarm": "120dB"
+        },
+        "operating_mode": "Wireless",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<10mA",
+        "mos_gan": "N/A",
+        "package": "Kit",
+        "applications": ["Home Security", "Office Security"],
+        "pdf_link": "/pdfs/automation/homesecurity.pdf",
+        "form_link": "/forms/automation/homesecurity"
+      }
+    ],
+    "Motor Controller": [
+      {
+        "id": "AU4",
+        "part_no": "JIED-AU-MC-001",
+        "title": "Automation Motor Controller",
+        "description": "Controller for motors in automation systems.",
+        "features": ["Limit switch inputs", "Variable speed"],
+        "specifications": {
+          "Voltage": "24V DC"
+        },
+        "operating_mode": "PWM Control",
+        "max_power": "500W",
+        "max_vdd": "30V",
+        "startup_method": "Soft Start",
+        "max_frequency": "20kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Conveyor Systems", "Robotics"],
+        "pdf_link": "/pdfs/automation/motorcontroller24v.pdf",
+        "form_link": "/forms/automation/motorcontroller24v"
+      }
+    ],
+    "Household Equipment Controller": [
+      {
+        "id": "AU5",
+        "part_no": "JIED-AU-HEC-001",
+        "title": "Smart Plug",
+        "description": "Control any household appliance remotely.",
+        "features": ["App controlled", "Timer function"],
+        "specifications": {
+          "Max Current": "10A"
+        },
+        "operating_mode": "Wi-Fi Control",
+        "max_power": "2300W",
+        "max_vdd": "250V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<1W",
+        "mos_gan": "N/A",
+        "package": "Plug",
+        "applications": ["Smart Home", "Energy Management"],
+        "pdf_link": "/pdfs/automation/smartplug.pdf",
+        "form_link": "/forms/automation/smartplug"
+      }
+    ],
+    "Relay cards": [
+      {
+        "id": "AU6",
+        "part_no": "JIED-AU-RC-001",
+        "title": "8-Channel Relay Card",
+        "description": "Relay card for automation projects.",
+        "features": ["Optically isolated", "5V TTL inputs"],
+        "specifications": {
+          "Channels": "8"
+        },
+        "operating_mode": "Digital Control",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<50mA",
+        "mos_gan": "N/A",
+        "package": "Module",
+        "applications": ["Industrial Automation", "Home Automation"],
+        "pdf_link": "/pdfs/automation/relaycard8ch.pdf",
+        "form_link": "/forms/automation/relaycard8ch"
+      }
+    ]
+  },
+  "Power Management": {
+    "DC-DC Converter": [
+      {
+        "id": "PM1",
+        "part_no": "JIED-PM-DCDC-001",
+        "title": "Buck-Boost DC-DC Converter",
+        "description": "Versatile DC-DC converter for various applications.",
+        "features": ["Wide input range", "Adjustable output"],
+        "specifications": {
+          "Power": "50W"
+        },
+        "operating_mode": "Buck-Boost",
+        "max_power": "50W",
+        "max_vdd": "60V",
+        "startup_method": "Soft Start",
+        "max_frequency": "150kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Battery Powered Devices", "Voltage Regulation"],
+        "pdf_link": "/pdfs/powermanagement/dcdc50w.pdf",
+        "form_link": "/forms/powermanagement/dcdc50w"
+      }
+    ],
+    "AC-DC Converter": [
+      {
+        "id": "PM2",
+        "part_no": "JIED-PM-ACDC-001",
+        "title": "AC-DC Converter 12V 10A",
+        "description": "High-quality AC-DC power supply.",
+        "features": ["Short circuit protection", "Overload protection"],
+        "specifications": {
+          "Output": "12V 10A"
+        },
+        "operating_mode": "Constant Voltage",
+        "max_power": "120W",
+        "max_vdd": "15V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Enclosed",
+        "applications": ["Industrial Power Supplies", "LED Power"],
+        "pdf_link": "/pdfs/powermanagement/acdc12v10a.pdf",
+        "form_link": "/forms/powermanagement/acdc12v10a"
+      }
+    ],
+    "Power Supply /Adopter": [
+      {
+        "id": "PM3",
+        "part_no": "JIED-PM-PS-001",
+        "title": "Universal Power Adapter 65W",
+        "description": "Adapter for laptops and other devices.",
+        "features": ["Multiple tips included", "Compact design"],
+        "specifications": {
+          "Power": "65W"
+        },
+        "operating_mode": "Universal",
+        "max_power": "65W",
+        "max_vdd": "20V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<0.1W",
+        "mos_gan": "N/A",
+        "package": "Adapter",
+        "applications": ["Laptops", "Monitors"],
+        "pdf_link": "/pdfs/powermanagement/adapter65w.pdf",
+        "form_link": "/forms/powermanagement/adapter65w"
+      }
+    ],
+    "Inverter": [
+      {
+        "id": "PM4",
+        "part_no": "JIED-PM-INV-001",
+        "title": "Pure Sine Wave Inverter 1000W",
+        "description": "High-performance inverter for sensitive electronics.",
+        "features": ["Pure sine wave output", "LCD display"],
+        "specifications": {
+          "Power": "1000W"
+        },
+        "operating_mode": "Pure Sine Wave",
+        "max_power": "1000W",
+        "max_vdd": "15V",
+        "startup_method": "Soft Start",
+        "max_frequency": "50Hz/60Hz",
+        "standby_power": "<10W",
+        "mos_gan": "IGBT",
+        "package": "Enclosed",
+        "applications": ["Home Backup Power", "RV Power"],
+        "pdf_link": "/pdfs/powermanagement/inverter1000w.pdf",
+        "form_link": "/forms/powermanagement/inverter1000w"
+      }
+    ],
+    "AC/DC Drives": [
+      {
+        "id": "PM5",
+        "part_no": "JIED-PM-ACDC-DRV-001",
+        "title": "AC Motor Drive 2HP",
+        "description": "Variable frequency drive for AC motors.",
+        "features": ["Vector control", "Modbus communication"],
+        "specifications": {
+          "Power": "2HP"
+        },
+        "operating_mode": "VFD",
+        "max_power": "1.5kW",
+        "max_vdd": "400V",
+        "startup_method": "Ramp Start",
+        "max_frequency": "400Hz",
+        "standby_power": "<5W",
+        "mos_gan": "IGBT",
+        "package": "Enclosed",
+        "applications": ["Industrial Motors", "Pumps"],
+        "pdf_link": "/pdfs/powermanagement/acdrive2hp.pdf",
+        "form_link": "/forms/powermanagement/acdrive2hp"
+      }
+    ],
+    "Lead Acid Battery Charger": [
+      {
+        "id": "PM6",
+        "part_no": "JIED-PM-LABC-001",
+        "title": "Lead Acid Battery Charger 12V 10A",
+        "description": "Smart charger for lead-acid batteries.",
+        "features": ["Multi-stage charging", "Temperature compensation"],
+        "specifications": {
+          "Voltage": "12V",
+          "Current": "10A"
+        },
+        "operating_mode": "Multi-stage",
+        "max_power": "120W",
+        "max_vdd": "15V",
+        "startup_method": "Soft Start",
+        "max_frequency": "- ",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Enclosed",
+        "applications": ["Car Batteries", "UPS Systems"],
+        "pdf_link": "/pdfs/powermanagement/leadacidcharger12v10a.pdf",
+        "form_link": "/forms/powermanagement/leadacidcharger12v10a"
+      }
+    ],
+    "Li-On Battery Charger": [
+      {
+        "id": "PM7",
+        "part_no": "JIED-PM-LIBC-001",
+        "title": "Li-Ion Battery Charger 4S 5A",
+        "description": "Charger for 4-cell Li-Ion battery packs.",
+        "features": ["CC/CV charging", "Balance charging"],
+        "specifications": {
+          "Cells": "4S",
+          "Current": "5A"
+        },
+        "operating_mode": "CC/CV",
+        "max_power": "84W",
+        "max_vdd": "17V",
+        "startup_method": "Soft Start",
+        "max_frequency": "- ",
+        "standby_power": "<0.2W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["E-bike Batteries", "Portable Devices"],
+        "pdf_link": "/pdfs/powermanagement/liioncharger4s5a.pdf",
+        "form_link": "/forms/powermanagement/liioncharger4s5a"
+      }
+    ],
+    "Li-Poly Battery Charger": [
+      {
+        "id": "PM8",
+        "part_no": "JIED-PM-LPBC-001",
+        "title": "Li-Poly Battery Charger 3S 2A",
+        "description": "Compact charger for 3-cell Li-Poly batteries.",
+        "features": ["LED status indicator", "Short circuit protection"],
+        "specifications": {
+          "Cells": "3S",
+          "Current": "2A"
+        },
+        "operating_mode": "CC/CV",
+        "max_power": "25W",
+        "max_vdd": "13V",
+        "startup_method": "Soft Start",
+        "max_frequency": "- ",
+        "standby_power": "<0.1W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Drones", "RC Vehicles"],
+        "pdf_link": "/pdfs/powermanagement/lipolycharger3s2a.pdf",
+        "form_link": "/forms/powermanagement/lipolycharger3s2a"
+      }
+    ],
+    "Motor Controller": [
+      {
+        "id": "PM9",
+        "part_no": "JIED-PM-MC-001",
+        "title": "DC Motor Speed Controller 24V 20A",
+        "description": "PWM controller for DC motor speed control.",
+        "features": ["Adjustable speed", "Reversible direction"],
+        "specifications": {
+          "Voltage": "24V",
+          "Current": "20A"
+        },
+        "operating_mode": "PWM Control",
+        "max_power": "480W",
+        "max_vdd": "30V",
+        "startup_method": "Soft Start",
+        "max_frequency": "15kHz",
+        "standby_power": "<1W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Robotics", "Industrial Automation"],
+        "pdf_link": "/pdfs/powermanagement/motorcontroller24v20a.pdf",
+        "form_link": "/forms/powermanagement/motorcontroller24v20a"
+      }
+    ]
+  }
+}

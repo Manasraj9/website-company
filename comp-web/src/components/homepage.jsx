@@ -33,7 +33,7 @@ const HomePage = () => {
       </section>
 
       {/* --- 2. Introduction Section --- */}
-      <section id="about" className="py-16 md:py-20 px-6 bg-white ">
+      <section id="about" className="py-16 md:py-20 px-6 bg-[#dcffd8] ">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Your One-Stop Solution Partner Since 2015</h2>
           <p className="text-base md:text-lg text-gray-600 max-w-4xl mx-auto mb-12">
@@ -87,7 +87,7 @@ const HomePage = () => {
       </section>
 
       {/* --- 4. Product Offerings Section --- */}
-      <section id="products" className="py-16 md:py-20 px-6">
+      <section id="products" className="py-16 md:py-20 px-6 bg-[#dcffd8]">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Product Offerings</h2>
@@ -123,10 +123,10 @@ const HomePage = () => {
       </section>
 
       {/* --- 5. Contact / CTA Section --- */}
-      <section id="contact" className="bg-[#0e5604] text-white py-16 md:py-20 px-6">
+      <section id="contact" className="py-16 md:py-20 px-6">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Want to establish yourself as a leader?</h2>
-          <p className="text-base md:text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
             Contact us to see how our profound business and functional knowledge can be the key to your success.
           </p>
           <a

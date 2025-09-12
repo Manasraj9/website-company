@@ -21,20 +21,30 @@ const Navbar = () => {
     {
       title: "About Us",
       links: [
-        { name: "Introduction", path: "/about/introduction" },
-        { name: "Mission & Vision", path: "/about/mission-vision" },
-        { name: "Our Involvement", path: "/about/involvement" },
-        { name: "Strengths", path: "/about/strengths" },
+        {name: "Introduction", path: "/introduction"},
+        { name: "Mission & Vision", path: "/vision" },,
+        { name: "Our Involvement", path: "/involvement" },,
+        { name: "Strengths", path: "/strengths" },
       ],
     },
     {
         title: "Services",
         links: [
-            { name: "R&D Partnership", path: "/services/rd-partnership" },
-            { name: "Product Development", path: "/services/product-development" },
+            { name: "Product Designing and Development", path: "/services/product-designing-and-development" },
+            { name: "Product Prototyping", path: "/services/product-prototyping" },
+            { name: "OEM & ODM", path: "/services/oem-and-odm" },
         ]
     },
-    { title: "Products", path: "/products" },
+        { 
+      title: "Products",
+      links: [
+        { name: "Lighting", path: "/products/Lighting" },
+        { name: "Solar", path: "/products/Solar" },
+        { name: "Automotive", path: "/products/Automotive" },
+        { name: "Automation", path: "/products/Automation" },
+        { name: "Power Management", path: "/products/Power%20Management" },
+      ],
+    },,
     { title: "Contact", path: "/contact" },
   ];
 
