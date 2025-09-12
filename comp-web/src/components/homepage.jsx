@@ -99,7 +99,7 @@ const HomePage = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Lighting</h3>
                 <p className="text-gray-600 mb-4">Custom drivers for Domestic, Industrial, Automotive, and Signaling LED applications.</p>
-                <a href="/products/lighting" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
+                <a href="/products/Lighting" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
@@ -107,7 +107,7 @@ const HomePage = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Solar & Power Management</h3>
                 <p className="text-gray-600 mb-4">Charge Controllers, Inverters, DC-DC Converters, Motor Controllers (VFD), and various Battery Chargers.</p>
-                <a href="/products/power" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
+                <a href="/products/Solar" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
@@ -115,7 +115,7 @@ const HomePage = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Automotive & Automation</h3>
                 <p className="text-gray-600 mb-4">Solutions including Light Drivers, Motor Controllers, Chargers, Sensors, and Remote Control Systems.</p>
-                <a href="/products/automation" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
+                <a href="/products/Automation" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
           </div>
