@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
+import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 
@@ -63,9 +64,9 @@ const ProductDetailPage = () => {
             <a href={product.pdf_link} target="_blank" rel="noopener noreferrer" className="bg-[#306d27] hover:bg-[#0e5604] text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
               Download Datasheet
             </a>
-            <a href={product.form_link} className="bg-gray-200 hover:bg-gray-300 text-[#1E293B] font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+            <Link href="/sample-request" className="bg-gray-200 hover:bg-gray-300 text-[#1E293B] font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
               Sample Request
-            </a>
+            </Link>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">

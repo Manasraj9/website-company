@@ -3,6 +3,7 @@ import React from 'react';
 import { FaUsers } from "react-icons/fa";
 import { FaMicrochip } from "react-icons/fa6";
 import { HiOutlineLightBulb } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 
 // --- Main Homepage Component ---
@@ -40,15 +41,15 @@ const HomePage = () => {
             JIED provides one-stop solutions in Power Electronics, Wireless, Automation, Automotive, Sensors, and Testing & Measurement. We focus on high quality, cost-effective, and user-friendly electronic products to meet the requirements of your trade and industry.
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="p-6">
+            <div className="p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300 border-2 border-emerald-600">
               <h3 className="text-xl md:text-2xl font-bold text-[#0e5604] mb-3 ">Our Mission</h3>
               <p className="text-gray-700">To achieve the reputation of a quality, high standard & reliable solution & service Provider Company in the electronics industry with a commitment to on-time, value-driven solutions.</p>
             </div>
-            <div className="p-6">
+            <div className="p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300 border-2 border-emerald-600">
               <h3 className="text-xl md:text-2xl font-bold text-[#0e5604] mb-3">Our Vision</h3>
               <p className="text-gray-700">To achieve 100% customer satisfaction by delivering quality products and services at an affordable cost, striving to become a leading entity in technology-based corporate solutions.</p>
             </div>
-            <div className="p-6">
+            <div className="p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300 border-2 border-emerald-600">
               <h3 className="text-xl md:text-2xl font-bold text-[#0e5604] mb-3">Our Philosophy</h3>
               <p className="text-gray-700">Building long-term business partnerships where interpersonal relationships, reliability, assured quality, and target-oriented modern technology are the major building blocks.</p>
             </div>
@@ -61,21 +62,21 @@ const HomePage = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-12">Our Involvement</h2>
           <div className="grid md:grid-cols-3 gap-10 md:gap-12">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
               <div className="bg-[#306d27] rounded-full p-5 mb-4">
                 <FaUsers className='text-white text-4xl'/>
               </div>
               <h3 className="text-xl font-bold mb-2">Product Design & Consultancy</h3>
               <p className="text-gray-600">We offer a full range of consulting to analyze your business requirements and help design, upgrade, or modify products with new technology.</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
               <div className="bg-[#306d27] rounded-full p-5 mb-4">
                 <FaMicrochip  className='text-white text-4xl'/>
               </div>
               <h3 className="text-xl font-bold mb-2">Product Development</h3>
               <p className="text-gray-600">Providing end-to-end development from requirement analysis to deployment, maintenance, and manufacturing support for the entire application lifecycle.</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
               <div className="bg-[#306d27] rounded-full p-5 mb-4">
                 <HiOutlineLightBulb  className='text-white text-4xl'/>
               </div>
@@ -85,6 +86,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
 
       {/* --- 4. Product Offerings Section --- */}
       <section id="products" className="py-16 md:py-20 px-6 bg-[#dcffd8]">
@@ -140,6 +142,7 @@ const HomePage = () => {
     </div>
   );
 };
+
 
 export default HomePage;
 
