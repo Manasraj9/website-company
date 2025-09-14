@@ -1,5 +1,5 @@
 {
-  "Power Management": {
+  "More Products": {
     "DC-DC Converter": [
       {
         "id": "PM1",
@@ -46,7 +46,7 @@
         "form_link": "/forms/powermanagement/acdc12v10a"
       }
     ],
-    "Power Supply /Adopter": [
+    "Power-Supply Adapter/Chargers": [
       {
         "id": "PM3",
         "part_no": "JIED-PM-PS-001",
@@ -92,7 +92,7 @@
         "form_link": "/forms/powermanagement/inverter1000w"
       }
     ],
-    "AC/DC Drives": [
+    "Motor Controller": [
       {
         "id": "PM5",
         "part_no": "JIED-PM-ACDC-DRV-001",
@@ -115,7 +115,7 @@
         "form_link": "/forms/powermanagement/acdrive2hp"
       }
     ],
-    "Lead Acid Battery Charger": [
+    "Fan-Controller": [
       {
         "id": "PM6",
         "part_no": "JIED-PM-LABC-001",
@@ -139,7 +139,7 @@
         "form_link": "/forms/powermanagement/leadacidcharger12v10a"
       }
     ],
-    "Li-On Battery Charger": [
+    "Embedded": [
       {
         "id": "PM7",
         "part_no": "JIED-PM-LIBC-001",
@@ -163,7 +163,7 @@
         "form_link": "/forms/powermanagement/liioncharger4s5a"
       }
     ],
-    "Li-Poly Battery Charger": [
+    "Agriculture": [
       {
         "id": "PM8",
         "part_no": "JIED-PM-LPBC-001",
@@ -185,30 +185,6 @@
         "applications": ["Drones", "RC Vehicles"],
         "pdf_link": "/pdfs/powermanagement/lipolycharger3s2a.pdf",
         "form_link": "/forms/powermanagement/lipolycharger3s2a"
-      }
-    ],
-    "Motor Controller": [
-      {
-        "id": "PM9",
-        "part_no": "JIED-PM-MC-001",
-        "title": "DC Motor Speed Controller 24V 20A",
-        "description": "PWM controller for DC motor speed control.",
-        "features": ["Adjustable speed", "Reversible direction"],
-        "specifications": {
-          "Voltage": "24V",
-          "Current": "20A"
-        },
-        "operating_mode": "PWM Control",
-        "max_power": "480W",
-        "max_vdd": "30V",
-        "startup_method": "Soft Start",
-        "max_frequency": "15kHz",
-        "standby_power": "<1W",
-        "mos_gan": "MOS",
-        "package": "Module",
-        "applications": ["Robotics", "Industrial Automation"],
-        "pdf_link": "/pdfs/powermanagement/motorcontroller24v20a.pdf",
-        "form_link": "/forms/powermanagement/motorcontroller24v20a"
       }
     ]
   }

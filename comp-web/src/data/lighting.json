@@ -47,29 +47,84 @@
       }
     ],
     "Industrial LED Light Driver": [
-      {
-        "id": "L2",
-        "part_no": "JIED-L-I-001",
-        "title": "Industrial LED Light Driver 50W",
-        "description": "Rugged industrial driver for heavy-duty LED lighting.",
-        "features": ["Thermal cutoff", "High power factor"],
-        "specifications": {
-          "Input Voltage": "230V AC",
-          "Output": "48V DC 50W"
-        },
-        "operating_mode": "Constant Current",
-        "max_power": "50W",
-        "max_vdd": "60V",
-        "startup_method": "Hard Start",
-        "max_frequency": "150kHz",
-        "standby_power": "<1W",
-        "mos_gan": "GaN",
-        "package": "TO-220",
-        "applications": ["High Bay Lighting", "Street Lighting"],
-        "pdf_link": "/pdfs/lighting/industrial50w.pdf",
-        "form_link": "/forms/lighting/industrial50w"
-      }
-    ],
+    {
+      "id": "JI-S3070HI",
+      "part_no": "JI-S3070HI",
+      "title": "Industrial LED Light Driver 80W",
+      "product_code": "JI-S3070HI",
+      "power_rating": "72W",
+      "input_voltage": "140-295V AC",
+      "power_factor": ">0.98",
+      "thd": "<5%",
+      "emi_emc": "Pass",
+      "topology": "Isolated, Constant Current",
+      "output_voltage": "48V DC",
+      "output_current": "1.5A",
+      "description": "High Precision PSR APFC Isolated LED Driver for industrial and outdoor applications.",
+      "features": [
+        "High Power Factor (PF > 0.98)",
+        "THD Less than 5%",
+        "Wide input voltage range (100-300VAC)",
+        "Surge Protection > 4.7KVA",
+        "Highly accurate constant current (+/-3%)",
+        "Isolated Design",
+        "Multiple protections including Overload and Short Circuit"
+      ],
+      "specifications": {
+        "Input Voltage": "140-295V AC",
+        "Output": "48V DC, 1.5A, 72W",
+        "Efficiency": "~90%",
+        "Withstand Voltage": "450V AC"
+      },
+      "operating_mode": "Constant Current",
+      "max_power": "72W",
+      "max_vdd": "65.5V",
+      "dimensions": "98mm x 70mm x 36mm",
+      "applications": ["Street Light", "Flood Light", "Ceiling Light", "Constant Current Power Supply"],
+      "pdf_link": "/pdf/lighting/Industrial/JI-S3070HI.pdf",
+      "form_link": "/forms/lighting/JI-S3070HI"
+    },
+    {
+      "id": "JI-S524HI",
+      "part_no": "JI-S524HI",
+      "title": "Industrial LED Light Driver 24W",
+      "product_code": "JI-S524HI",
+      "power_rating": "22W",
+      "input_voltage": "140-280V AC",
+      "power_factor": ">0.98",
+      "thd": "<5%",
+      "emi_emc": "Pass",
+      "topology": "Isolated, Constant Current",
+      "output_voltage": "72V DC",
+      "output_current": "300mA",
+      "description": "High Precision PSR APFC Isolated LED Driver for industrial and outdoor lighting.",
+      "features": [
+        "High Power Factor (PF > 0.98)",
+        "THD Less than 5%",
+        "Wide input voltage range (120-300VAC)",
+        "Surge Protection > 2.2KVA",
+        "Isolated Design"
+      ],
+      "specifications": {
+        "Input Voltage": "140-280V AC",
+        "Output": "72V DC, 300mA, 22W",
+        "Efficiency": "~87%",
+        "Withstand Voltage": "300V AC"
+      },
+      "operating_mode": "Constant Current",
+      "max_power": "22W",
+      "max_vdd": "129V",
+      "dimensions": "65mm x 36mm x 16mm",
+      "applications": [
+        "Street light",
+        "Flood light",
+        "Ceiling light",
+        "Constant Current Power Supply"
+      ],
+      "pdf_link": "/pdf/lighting/Industrial/JI-S524HI.pdf",
+      "form_link": "/forms/lighting/JI-S524HI"
+    }
+],
     "Signaling LED Light Driver": [
       {
         "id": "L3",

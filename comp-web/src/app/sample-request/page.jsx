@@ -2,8 +2,12 @@
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 const SampleRequestPage = () => {
+  const searchParams = useSearchParams();
+  const partNo = searchParams.get('part_no');
+
   const [formData, setFormData] = useState({
     companyName: '',
     cityCountry: '',
@@ -12,7 +16,7 @@ const SampleRequestPage = () => {
     emailAddress: '',
     applicationProducts: '',
     sampleApplication: '',
-    icPartNumber: '',
+    icPartNumber: partNo || '',
     icSampleQuantity: '',
     massProductionDate: '',
     otherInstructions: '',

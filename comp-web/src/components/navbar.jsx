@@ -42,7 +42,7 @@ const Navbar = () => {
         { name: "Solar", path: "/products/Solar" },
         { name: "Automotive", path: "/products/Automotive" },
         { name: "Automation", path: "/products/Automation" },
-        { name: "Power Management", path: "/products/Power%20Management" },
+        { name: "More Products", path: "/products/More%20Products" },
       ],
     },,
     { title: "Contact", path: "/contact" },

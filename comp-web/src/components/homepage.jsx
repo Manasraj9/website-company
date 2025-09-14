@@ -95,7 +95,7 @@ const HomePage = () => {
             <h2 className="text-3xl font-bold">Product Offerings</h2>
             <p className="text-base md:text-lg text-gray-600 mt-2">Cost-effective and user-friendly solutions across a wide range of industries.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
               <img src="https://placehold.co/600x400/306d27/FFFFFF?text=Lighting+Solutions" alt="Lighting Solutions" className="w-full h-56 object-cover" />
               <div className="p-6">
@@ -105,10 +105,10 @@ const HomePage = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-              <img src="https://placehold.co/600x400/306d27/FFFFFF?text=Solar+&+Power" alt="Solar and Power Management" className="w-full h-56 object-cover" />
+              <img src="https://placehold.co/600x400/306d27/FFFFFF?text=Solar" alt="Solar" className="w-full h-56 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Solar & Power Management</h3>
-                <p className="text-gray-600 mb-4">Charge Controllers, Inverters, DC-DC Converters, Motor Controllers (VFD), and various Battery Chargers.</p>
+                <h3 className="text-xl font-semibold mb-2">Solar</h3>
+                <p className="text-gray-600 mb-4">Charge Controllers, Inverters, DC-DC Converters, and Motor Controllers (VFD).</p>
                 <a href="/products/Solar" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
@@ -118,6 +118,14 @@ const HomePage = () => {
                 <h3 className="text-xl font-semibold mb-2">Automotive & Automation</h3>
                 <p className="text-gray-600 mb-4">Solutions including Light Drivers, Motor Controllers, Chargers, Sensors, and Remote Control Systems.</p>
                 <a href="/products/Automation" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+              <img src="https://placehold.co/600x400/306d27/FFFFFF?text=More+Products" alt="More Products" className="w-full h-56 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">More Products</h3>
+                <p className="text-gray-600 mb-4">A wide range of power supplies, battery chargers, and motor controllers.</p>
+                <a href="/products/More%20Products" className="text-[#306d27] font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
           </div>

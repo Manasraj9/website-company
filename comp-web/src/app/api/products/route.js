@@ -4,14 +4,14 @@ import lighting from '@/data/lighting.json';
 import solar from '@/data/solar.json';
 import automotive from '@/data/automotive.json';
 import automation from '@/data/automation.json';
-import powerManagement from '@/data/power-management.json';
+import moreProducts from '@/data/more-products.json';
 
 const products = {
   ...lighting,
   ...solar,
   ...automotive,
   ...automation,
-  ...powerManagement,
+  ...moreProducts,
 };
 
 export async function GET() {
