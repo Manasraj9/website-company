@@ -1,0 +1,142 @@
+{
+  "Automation": {
+    "Remote Control Switch": [
+      {
+        "id": "AU1",
+        "part_no": "JIED-AU-RCS-001",
+        "title": "4-Channel Remote Control Switch",
+        "description": "Control up to 4 devices remotely.",
+        "features": ["RF remote", "100m range"],
+        "specifications": {
+          "Channels": "4"
+        },
+        "operating_mode": "RF Control",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "433MHz",
+        "standby_power": "<5mA",
+        "mos_gan": "N/A",
+        "package": "Module",
+        "applications": ["Home Automation", "Industrial Control"],
+        "pdf_link": "/pdfs/automation/remotecontrol4ch.pdf",
+        "form_link": "/forms/automation/remotecontrol4ch"
+      }
+    ],
+    "Light": [
+      {
+        "id": "AU2",
+        "part_no": "JIED-AU-LT-001",
+        "title": "Automated LED Light",
+        "description": "Smart LED light with automation features.",
+        "features": ["App controlled", "Dimmable"],
+        "specifications": {
+          "Wattage": "10W"
+        },
+        "operating_mode": "Smart Control",
+        "max_power": "10W",
+        "max_vdd": "230V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<0.5W",
+        "mos_gan": "N/A",
+        "package": "Bulb",
+        "applications": ["Smart Home Lighting", "Office Lighting"],
+        "pdf_link": "/pdfs/automation/automatedlight10w.pdf",
+        "form_link": "/forms/automation/automatedlight10w"
+      }
+    ],
+    "Security Systems": [
+      {
+        "id": "AU3",
+        "part_no": "JIED-AU-SS-001",
+        "title": "Home Security System",
+        "description": "Complete home security solution.",
+        "features": ["Door/window sensors", "Motion detector"],
+        "specifications": {
+          "Alarm": "120dB"
+        },
+        "operating_mode": "Wireless",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<10mA",
+        "mos_gan": "N/A",
+        "package": "Kit",
+        "applications": ["Home Security", "Office Security"],
+        "pdf_link": "/pdfs/automation/homesecurity.pdf",
+        "form_link": "/forms/automation/homesecurity"
+      }
+    ],
+    "Motor Controller": [
+      {
+        "id": "AU4",
+        "part_no": "JIED-AU-MC-001",
+        "title": "Automation Motor Controller",
+        "description": "Controller for motors in automation systems.",
+        "features": ["Limit switch inputs", "Variable speed"],
+        "specifications": {
+          "Voltage": "24V DC"
+        },
+        "operating_mode": "PWM Control",
+        "max_power": "500W",
+        "max_vdd": "30V",
+        "startup_method": "Soft Start",
+        "max_frequency": "20kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Conveyor Systems", "Robotics"],
+        "pdf_link": "/pdfs/automation/motorcontroller24v.pdf",
+        "form_link": "/forms/automation/motorcontroller24v"
+      }
+    ],
+    "Household Equipment Controller": [
+      {
+        "id": "AU5",
+        "part_no": "JIED-AU-HEC-001",
+        "title": "Smart Plug",
+        "description": "Control any household appliance remotely.",
+        "features": ["App controlled", "Timer function"],
+        "specifications": {
+          "Max Current": "10A"
+        },
+        "operating_mode": "Wi-Fi Control",
+        "max_power": "2300W",
+        "max_vdd": "250V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<1W",
+        "mos_gan": "N/A",
+        "package": "Plug",
+        "applications": ["Smart Home", "Energy Management"],
+        "pdf_link": "/pdfs/automation/smartplug.pdf",
+        "form_link": "/forms/automation/smartplug"
+      }
+    ],
+    "Relay cards": [
+      {
+        "id": "AU6",
+        "part_no": "JIED-AU-RC-001",
+        "title": "8-Channel Relay Card",
+        "description": "Relay card for automation projects.",
+        "features": ["Optically isolated", "5V TTL inputs"],
+        "specifications": {
+          "Channels": "8"
+        },
+        "operating_mode": "Digital Control",
+        "max_power": "- ",
+        "max_vdd": "12V",
+        "startup_method": "Instant",
+        "max_frequency": "- ",
+        "standby_power": "<50mA",
+        "mos_gan": "N/A",
+        "package": "Module",
+        "applications": ["Industrial Automation", "Home Automation"],
+        "pdf_link": "/pdfs/automation/relaycard8ch.pdf",
+        "form_link": "/forms/automation/relaycard8ch"
+      }
+    ]
+  }
+}

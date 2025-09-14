@@ -1,0 +1,124 @@
+{
+  "Solar": {
+    "Charge Controller": [
+      {
+        "id": "S1",
+        "part_no": "JIED-S-CC-001",
+        "title": "Solar Charge Controller 10A",
+        "description": "Protects batteries and regulates charging.",
+        "features": ["PWM charging", "LCD display"],
+        "specifications": {
+          "Current": "10A",
+          "System Voltage": "12V/24V"
+        },
+        "operating_mode": "PWM",
+        "max_power": "120W/240W",
+        "max_vdd": "50V",
+        "startup_method": "- ",
+        "max_frequency": "- ",
+        "standby_power": "<10mA",
+        "mos_gan": "MOS",
+        "package": "Box",
+        "applications": ["Off-grid solar systems", "Solar street lights"],
+        "pdf_link": "/pdfs/solar/chargecontroller10a.pdf",
+        "form_link": "/forms/solar/chargecontroller10a"
+      }
+    ],
+    "LED Driver": [
+      {
+        "id": "S2",
+        "part_no": "JIED-S-LD-001",
+        "title": "Solar LED Driver 12W",
+        "description": "Driver for solar-powered LED lighting.",
+        "features": ["Dusk to dawn operation", "High efficiency"],
+        "specifications": {
+          "Input Voltage": "12V DC",
+          "Output": "12W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "12W",
+        "max_vdd": "20V",
+        "startup_method": "Soft Start",
+        "max_frequency": "80kHz",
+        "standby_power": "<0.1W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Solar Garden Lights", "Solar Street Lights"],
+        "pdf_link": "/pdfs/solar/leddriver12w.pdf",
+        "form_link": "/forms/solar/leddriver12w"
+      }
+    ],
+    "Inverter": [
+      {
+        "id": "S3",
+        "part_no": "JIED-S-INV-001",
+        "title": "Solar Inverter 500W",
+        "description": "Converts DC power from solar panels to AC power.",
+        "features": ["Pure sine wave", "Overload protection"],
+        "specifications": {
+          "Power": "500W",
+          "Input Voltage": "12V DC"
+        },
+        "operating_mode": "Pure Sine Wave",
+        "max_power": "500W",
+        "max_vdd": "15V",
+        "startup_method": "Soft Start",
+        "max_frequency": "50Hz/60Hz",
+        "standby_power": "<5W",
+        "mos_gan": "MOS",
+        "package": "Enclosed",
+        "applications": ["Home Solar Systems", "Small Appliances"],
+        "pdf_link": "/pdfs/solar/inverter500w.pdf",
+        "form_link": "/forms/solar/inverter500w"
+      }
+    ],
+    "DC-DC converter": [
+      {
+        "id": "S4",
+        "part_no": "JIED-S-DCDC-001",
+        "title": "Solar DC-DC Converter 100W",
+        "description": "Efficiently converts DC voltages in solar systems.",
+        "features": ["Wide input range", "High efficiency"],
+        "specifications": {
+          "Power": "100W",
+          "Input Voltage": "12-48V DC"
+        },
+        "operating_mode": "Buck-Boost",
+        "max_power": "100W",
+        "max_vdd": "60V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "Module",
+        "applications": ["Battery Charging", "Voltage Regulation"],
+        "pdf_link": "/pdfs/solar/dcdc100w.pdf",
+        "form_link": "/forms/solar/dcdc100w"
+      }
+    ],
+    "Motor controller (VFD)": [
+      {
+        "id": "S5",
+        "part_no": "JIED-S-VFD-001",
+        "title": "Solar Motor Controller (VFD) 1HP",
+        "description": "Variable frequency drive for solar-powered motors.",
+        "features": ["MPPT tracking", "Dry run protection"],
+        "specifications": {
+          "Motor Power": "1HP",
+          "Input Voltage": "200-400V DC"
+        },
+        "operating_mode": "MPPT VFD",
+        "max_power": "750W",
+        "max_vdd": "450V",
+        "startup_method": "Auto Start",
+        "max_frequency": "400Hz",
+        "standby_power": "<2W",
+        "mos_gan": "IGBT",
+        "package": "Enclosed",
+        "applications": ["Solar Water Pumps", "Industrial Fans"],
+        "pdf_link": "/pdfs/solar/vfd1hp.pdf",
+        "form_link": "/forms/solar/vfd1hp"
+      }
+    ]
+  }
+}

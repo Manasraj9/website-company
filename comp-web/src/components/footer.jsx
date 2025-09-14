@@ -49,7 +49,8 @@ export default function Footer() {
                     <ul className="space-y-3 text-sm text-gray-300">
                         <li><a href="/products" className="hover:text-white transition">Power Electronics</a></li>
                         <li><a href="/products" className="hover:text-white transition">Automation & Automotive</a></li>
-                        <li><a href="/products" className="hover:text-white transition">Lighting & Solar</a></li>
+                        <li><a href="/products" className="hover:text-white transition">Solar & Renewable Energy</a></li>
+                        <li><a href="/products" className="hover:text-white transition">Embedded & wireless</a></li>
                         <li><a href="/products" className="hover:text-white transition">Test & Measurement</a></li>
                     </ul>
                 </div>
@@ -60,7 +61,7 @@ export default function Footer() {
                     <div className="space-y-4 text-sm text-gray-300">
                         <div>
                             <p className="font-bold text-white">City Office:</p>
-                            <p>4A Selimpur Lane, Dhakuria, Kolkata, West Bengal - 700031</p>
+                            <p>Dhakuria, Kolkata, West Bengal - 700031</p>
                         </div>
                         <div>
                             <p className="font-bold text-white">Email:</p>

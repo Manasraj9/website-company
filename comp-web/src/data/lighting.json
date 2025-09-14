@@ -1,0 +1,170 @@
+{
+  "Lighting": {
+    "Domestic LED Light Driver": [
+      {
+        "id": "L1",
+        "part_no": "JIED-L-D-001",
+        "title": "Domestic LED Light Driver 5W",
+        "description": "High-efficiency driver for domestic LED lights.",
+        "features": ["Over-voltage protection", "Compact design"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "12V DC 5W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "5W",
+        "max_vdd": "24V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "DIP-8",
+        "applications": ["Downlights", "Decorative Lighting"],
+        "pdf_link": "/pdfs/lighting/domestic5w.pdf",
+        "form_link": "/forms/lighting/domestic5w"
+      },
+      {
+        "id": "L1-2",
+        "part_no": "JIED-L-D-002",
+        "title": "Domestic LED Light Driver 10W",
+        "description": "High-efficiency driver for domestic LED lights.",
+        "features": ["Over-voltage protection", "Compact design"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "12V DC 10W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "10W",
+        "max_vdd": "24V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "DIP-8",
+        "applications": ["Downlights", "Decorative Lighting"],
+        "pdf_link": "/pdfs/lighting/domestic10w.pdf",
+        "form_link": "/forms/lighting/domestic10w"
+      }
+    ],
+    "Industrial LED Light Driver": [
+      {
+        "id": "L2",
+        "part_no": "JIED-L-I-001",
+        "title": "Industrial LED Light Driver 50W",
+        "description": "Rugged industrial driver for heavy-duty LED lighting.",
+        "features": ["Thermal cutoff", "High power factor"],
+        "specifications": {
+          "Input Voltage": "230V AC",
+          "Output": "48V DC 50W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "50W",
+        "max_vdd": "60V",
+        "startup_method": "Hard Start",
+        "max_frequency": "150kHz",
+        "standby_power": "<1W",
+        "mos_gan": "GaN",
+        "package": "TO-220",
+        "applications": ["High Bay Lighting", "Street Lighting"],
+        "pdf_link": "/pdfs/lighting/industrial50w.pdf",
+        "form_link": "/forms/lighting/industrial50w"
+      }
+    ],
+    "Signaling LED Light Driver": [
+      {
+        "id": "L3",
+        "part_no": "JIED-L-S-001",
+        "title": "Signaling LED Light Driver 10W",
+        "description": "Reliable driver for signaling applications.",
+        "features": ["Constant current output", "IP67 rated"],
+        "specifications": {
+          "Input Voltage": "24V DC",
+          "Output": "10W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "10W",
+        "max_vdd": "30V",
+        "startup_method": "Soft Start",
+        "max_frequency": "80kHz",
+        "standby_power": "<0.3W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Traffic Lights", "Emergency Lighting"],
+        "pdf_link": "/pdfs/lighting/signaling10w.pdf",
+        "form_link": "/forms/lighting/signaling10w"
+      }
+    ],
+    "Automotive LED Light Driver": [
+      {
+        "id": "L4",
+        "part_no": "JIED-L-A-001",
+        "title": "Automotive LED Light Driver 20W",
+        "description": "Driver for automotive LED lighting systems.",
+        "features": ["Vibration resistant", "Wide temperature range"],
+        "specifications": {
+          "Input Voltage": "12V DC",
+          "Output": "20W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "20W",
+        "max_vdd": "18V",
+        "startup_method": "Soft Start",
+        "max_frequency": "120kHz",
+        "standby_power": "<0.2W",
+        "mos_gan": "MOS",
+        "package": "QFN-16",
+        "applications": ["Headlights", "Tail Lights"],
+        "pdf_link": "/pdfs/lighting/automotive20w.pdf",
+        "form_link": "/forms/lighting/automotive20w"
+      }
+    ],
+    "DC LED Light Driver": [
+      {
+        "id": "L5",
+        "part_no": "JIED-L-DC-001",
+        "title": "DC LED Light Driver 15W",
+        "description": "Efficient driver for DC powered LED lights.",
+        "features": ["Low ripple", "Short circuit protection"],
+        "specifications": {
+          "Input Voltage": "12-24V DC",
+          "Output": "15W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "15W",
+        "max_vdd": "28V",
+        "startup_method": "Soft Start",
+        "max_frequency": "90kHz",
+        "standby_power": "<0.3W",
+        "mos_gan": "MOS",
+        "package": "SOP-8",
+        "applications": ["Solar Lighting", "Battery Powered Devices"],
+        "pdf_link": "/pdfs/lighting/dc15w.pdf",
+        "form_link": "/forms/lighting/dc15w"
+      }
+    ],
+    "Rail": [
+      {
+        "id": "L6",
+        "part_no": "JIED-L-R-001",
+        "title": "Rail Lighting Driver 30W",
+        "description": "Driver for railway lighting applications.",
+        "features": ["EN 50155 compliant", "High reliability"],
+        "specifications": {
+          "Input Voltage": "110V DC",
+          "Output": "30W"
+        },
+        "operating_mode": "Constant Current",
+        "max_power": "30W",
+        "max_vdd": "120V",
+        "startup_method": "Soft Start",
+        "max_frequency": "100kHz",
+        "standby_power": "<0.5W",
+        "mos_gan": "MOS",
+        "package": "TO-263",
+        "applications": ["Train Interior Lighting", "Platform Lighting"],
+        "pdf_link": "/pdfs/lighting/rail30w.pdf",
+        "form_link": "/forms/lighting/rail30w"
+      }
+    ]
+  }
+}
