@@ -36,7 +36,7 @@ const HomePage = () => {
       {/* --- 2. Introduction Section --- */}
       <section id="about" className="py-16 md:py-20 px-6 bg-[#dcffd8] ">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Your One-Stop Solution Partner Since 2015</h2>
+          <h2 className="text-3xl font-bold mb-4">Your Innovation Partner for Integrated Solutions in Electronics</h2>
           <p className="text-base md:text-lg text-gray-600 max-w-4xl mx-auto mb-12">
             JIED provides one-stop solutions in Power Electronics, Wireless, Automation, Automotive, Sensors, and Testing & Measurement. We focus on high quality, cost-effective, and user-friendly electronic products to meet the requirements of your trade and industry.
           </p>
