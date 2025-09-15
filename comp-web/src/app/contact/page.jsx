@@ -115,9 +115,9 @@ const ContactPage = () => {
                   <p>JHA INSTRUMENT</p>
                   <p>Ward No 11, Jagatpur, Supaul, Bihar</p>
                   <p>PIN - 852110, India</p>
-                  <p className="mt-4"><a href="http://www.jhainstrument.in" className="hover:underline">WWW.JHAINSTRUMENT.IN</a></p>
-                  <p><a href="mailto:piyush@jhainstrument.in" className="hover:underline">PIYUSH@JHAINSTRUMENT.IN</a></p>
-                  <p><a href="mailto:piyushjha.bs.in@gmail.com" className="hover:underline">PIYUSHJHA.BS.IN@GMAIL.COM</a></p>
+                  <p className="mt-4"><a href="http://www.jhainstrument.in" className="hover:underline">www.jhainstrument.in</a></p>
+                  <p><a href="mailto:piyush@jhainstrument.in" className="hover:underline">piyush@jhainstrument.in</a></p>
+                  <p><a href="mailto:piyushjha.bs.in@gmail.com" className="hover:underline">piyushjha.bs.in@gmail.com</a></p>
                   <p>PH: 9431073402</p>
                 </div>
 
