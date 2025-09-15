@@ -1,122 +1,19 @@
 {
   "Automotive": {
     "Light Driver": [
-      {
-        "id": "A1",
-        "part_no": "JIED-A-LD-001",
-        "title": "Automotive Light Driver 10W",
-        "description": "Driver for various automotive lighting applications.",
-        "features": ["CAN bus compatible", "Compact size"],
-        "specifications": {
-          "Input Voltage": "12V DC",
-          "Output": "10W"
-        },
-        "operating_mode": "Constant Current",
-        "max_power": "10W",
-        "max_vdd": "18V",
-        "startup_method": "Soft Start",
-        "max_frequency": "100kHz",
-        "standby_power": "<0.1W",
-        "mos_gan": "MOS",
-        "package": "SOP-8",
-        "applications": ["DRL", "Interior Lighting"],
-        "pdf_link": "/pdfs/automotive/lightdriver10w.pdf",
-        "form_link": "/forms/automotive/lightdriver10w"
-      }
+      
     ],
     "Motor Controller": [
-      {
-        "id": "A2",
-        "part_no": "JIED-A-MC-001",
-        "title": "Automotive Motor Controller 100A",
-        "description": "Controller for DC motors in automotive systems.",
-        "features": ["Regenerative braking", "Overcurrent protection"],
-        "specifications": {
-          "Current": "100A",
-          "Voltage": "48V DC"
-        },
-        "operating_mode": "PWM Control",
-        "max_power": "4.8kW",
-        "max_vdd": "60V",
-        "startup_method": "Ramp Start",
-        "max_frequency": "20kHz",
-        "standby_power": "<0.5W",
-        "mos_gan": "MOS",
-        "package": "Module",
-        "applications": ["Electric Vehicles", "Power Steering"],
-        "pdf_link": "/pdfs/automotive/motorcontroller100a.pdf",
-        "form_link": "/forms/automotive/motorcontroller100a"
-      }
+      
     ],
     "Charger": [
-      {
-        "id": "A3",
-        "part_no": "JIED-A-CH-001",
-        "title": "Automotive Battery Charger 12V 5A",
-        "description": "Smart charger for automotive batteries.",
-        "features": ["Multi-stage charging", "Reverse polarity protection"],
-        "specifications": {
-          "Voltage": "12V",
-          "Current": "5A"
-        },
-        "operating_mode": "Constant Voltage/Current",
-        "max_power": "60W",
-        "max_vdd": "15V",
-        "startup_method": "Soft Start",
-        "max_frequency": "- ",
-        "standby_power": "<0.2W",
-        "mos_gan": "MOS",
-        "package": "Enclosed",
-        "applications": ["Car Battery Charging", "Motorcycle Charging"],
-        "pdf_link": "/pdfs/automotive/charger12v5a.pdf",
-        "form_link": "/forms/automotive/charger12v5a"
-      }
+      
     ],
     "Sensor": [
-      {
-        "id": "A4",
-        "part_no": "JIED-A-SN-001",
-        "title": "Automotive Temperature Sensor",
-        "description": "High-accuracy temperature sensor for automotive use.",
-        "features": ["-40 to 150°C range", "Analog output"],
-        "specifications": {
-          "Accuracy": "±1°C"
-        },
-        "operating_mode": "Analog Output",
-        "max_power": "- ",
-        "max_vdd": "5V",
-        "startup_method": "Instant",
-        "max_frequency": "- ",
-        "standby_power": "<1mA",
-        "mos_gan": "N/A",
-        "package": "TO-92",
-        "applications": ["Engine Temperature Monitoring", "Cabin Climate Control"],
-        "pdf_link": "/pdfs/automotive/tempsensor.pdf",
-        "form_link": "/forms/automotive/tempsensor"
-      }
+     
     ],
     "Tracking System": [
-      {
-        "id": "A5",
-        "part_no": "JIED-A-TS-001",
-        "title": "GPS Tracking System",
-        "description": "Real-time GPS tracking for vehicles.",
-        "features": ["Geofencing", "Live tracking"],
-        "specifications": {
-          "Network": "4G LTE"
-        },
-        "operating_mode": "GPS/GSM",
-        "max_power": "- ",
-        "max_vdd": "12V",
-        "startup_method": "Cold Start",
-        "max_frequency": "- ",
-        "standby_power": "<10mA",
-        "mos_gan": "N/A",
-        "package": "Module",
-        "applications": ["Fleet Management", "Vehicle Security"],
-        "pdf_link": "/pdfs/automotive/gpstracker.pdf",
-        "form_link": "/forms/automotive/gpstracker"
-      }
+      
     ]
   }
 }

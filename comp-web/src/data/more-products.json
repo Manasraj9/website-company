@@ -1,191 +1,28 @@
 {
   "More Products": {
     "DC-DC Converter": [
-      {
-        "id": "PM1",
-        "part_no": "JIED-PM-DCDC-001",
-        "title": "Buck-Boost DC-DC Converter",
-        "description": "Versatile DC-DC converter for various applications.",
-        "features": ["Wide input range", "Adjustable output"],
-        "specifications": {
-          "Power": "50W"
-        },
-        "operating_mode": "Buck-Boost",
-        "max_power": "50W",
-        "max_vdd": "60V",
-        "startup_method": "Soft Start",
-        "max_frequency": "150kHz",
-        "standby_power": "<0.5W",
-        "mos_gan": "MOS",
-        "package": "Module",
-        "applications": ["Battery Powered Devices", "Voltage Regulation"],
-        "pdf_link": "/pdfs/powermanagement/dcdc50w.pdf",
-        "form_link": "/forms/powermanagement/dcdc50w"
-      }
+      
     ],
     "AC-DC Converter": [
-      {
-        "id": "PM2",
-        "part_no": "JIED-PM-ACDC-001",
-        "title": "AC-DC Converter 12V 10A",
-        "description": "High-quality AC-DC power supply.",
-        "features": ["Short circuit protection", "Overload protection"],
-        "specifications": {
-          "Output": "12V 10A"
-        },
-        "operating_mode": "Constant Voltage",
-        "max_power": "120W",
-        "max_vdd": "15V",
-        "startup_method": "Instant",
-        "max_frequency": "- ",
-        "standby_power": "<0.5W",
-        "mos_gan": "MOS",
-        "package": "Enclosed",
-        "applications": ["Industrial Power Supplies", "LED Power"],
-        "pdf_link": "/pdfs/powermanagement/acdc12v10a.pdf",
-        "form_link": "/forms/powermanagement/acdc12v10a"
-      }
+      
     ],
     "Power-Supply Adapter/Chargers": [
-      {
-        "id": "PM3",
-        "part_no": "JIED-PM-PS-001",
-        "title": "Universal Power Adapter 65W",
-        "description": "Adapter for laptops and other devices.",
-        "features": ["Multiple tips included", "Compact design"],
-        "specifications": {
-          "Power": "65W"
-        },
-        "operating_mode": "Universal",
-        "max_power": "65W",
-        "max_vdd": "20V",
-        "startup_method": "Instant",
-        "max_frequency": "- ",
-        "standby_power": "<0.1W",
-        "mos_gan": "N/A",
-        "package": "Adapter",
-        "applications": ["Laptops", "Monitors"],
-        "pdf_link": "/pdfs/powermanagement/adapter65w.pdf",
-        "form_link": "/forms/powermanagement/adapter65w"
-      }
+      
     ],
     "Inverter": [
-      {
-        "id": "PM4",
-        "part_no": "JIED-PM-INV-001",
-        "title": "Pure Sine Wave Inverter 1000W",
-        "description": "High-performance inverter for sensitive electronics.",
-        "features": ["Pure sine wave output", "LCD display"],
-        "specifications": {
-          "Power": "1000W"
-        },
-        "operating_mode": "Pure Sine Wave",
-        "max_power": "1000W",
-        "max_vdd": "15V",
-        "startup_method": "Soft Start",
-        "max_frequency": "50Hz/60Hz",
-        "standby_power": "<10W",
-        "mos_gan": "IGBT",
-        "package": "Enclosed",
-        "applications": ["Home Backup Power", "RV Power"],
-        "pdf_link": "/pdfs/powermanagement/inverter1000w.pdf",
-        "form_link": "/forms/powermanagement/inverter1000w"
-      }
+      
     ],
     "Motor Controller": [
-      {
-        "id": "PM5",
-        "part_no": "JIED-PM-ACDC-DRV-001",
-        "title": "AC Motor Drive 2HP",
-        "description": "Variable frequency drive for AC motors.",
-        "features": ["Vector control", "Modbus communication"],
-        "specifications": {
-          "Power": "2HP"
-        },
-        "operating_mode": "VFD",
-        "max_power": "1.5kW",
-        "max_vdd": "400V",
-        "startup_method": "Ramp Start",
-        "max_frequency": "400Hz",
-        "standby_power": "<5W",
-        "mos_gan": "IGBT",
-        "package": "Enclosed",
-        "applications": ["Industrial Motors", "Pumps"],
-        "pdf_link": "/pdfs/powermanagement/acdrive2hp.pdf",
-        "form_link": "/forms/powermanagement/acdrive2hp"
-      }
+      
     ],
     "Fan-Controller": [
-      {
-        "id": "PM6",
-        "part_no": "JIED-PM-LABC-001",
-        "title": "Lead Acid Battery Charger 12V 10A",
-        "description": "Smart charger for lead-acid batteries.",
-        "features": ["Multi-stage charging", "Temperature compensation"],
-        "specifications": {
-          "Voltage": "12V",
-          "Current": "10A"
-        },
-        "operating_mode": "Multi-stage",
-        "max_power": "120W",
-        "max_vdd": "15V",
-        "startup_method": "Soft Start",
-        "max_frequency": "- ",
-        "standby_power": "<0.5W",
-        "mos_gan": "MOS",
-        "package": "Enclosed",
-        "applications": ["Car Batteries", "UPS Systems"],
-        "pdf_link": "/pdfs/powermanagement/leadacidcharger12v10a.pdf",
-        "form_link": "/forms/powermanagement/leadacidcharger12v10a"
-      }
+      
     ],
     "Embedded": [
-      {
-        "id": "PM7",
-        "part_no": "JIED-PM-LIBC-001",
-        "title": "Li-Ion Battery Charger 4S 5A",
-        "description": "Charger for 4-cell Li-Ion battery packs.",
-        "features": ["CC/CV charging", "Balance charging"],
-        "specifications": {
-          "Cells": "4S",
-          "Current": "5A"
-        },
-        "operating_mode": "CC/CV",
-        "max_power": "84W",
-        "max_vdd": "17V",
-        "startup_method": "Soft Start",
-        "max_frequency": "- ",
-        "standby_power": "<0.2W",
-        "mos_gan": "MOS",
-        "package": "Module",
-        "applications": ["E-bike Batteries", "Portable Devices"],
-        "pdf_link": "/pdfs/powermanagement/liioncharger4s5a.pdf",
-        "form_link": "/forms/powermanagement/liioncharger4s5a"
-      }
+      
     ],
     "Agriculture": [
-      {
-        "id": "PM8",
-        "part_no": "JIED-PM-LPBC-001",
-        "title": "Li-Poly Battery Charger 3S 2A",
-        "description": "Compact charger for 3-cell Li-Poly batteries.",
-        "features": ["LED status indicator", "Short circuit protection"],
-        "specifications": {
-          "Cells": "3S",
-          "Current": "2A"
-        },
-        "operating_mode": "CC/CV",
-        "max_power": "25W",
-        "max_vdd": "13V",
-        "startup_method": "Soft Start",
-        "max_frequency": "- ",
-        "standby_power": "<0.1W",
-        "mos_gan": "MOS",
-        "package": "Module",
-        "applications": ["Drones", "RC Vehicles"],
-        "pdf_link": "/pdfs/powermanagement/lipolycharger3s2a.pdf",
-        "form_link": "/forms/powermanagement/lipolycharger3s2a"
-      }
+      
     ]
   }
 }
