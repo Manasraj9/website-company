@@ -109,7 +109,7 @@ const HomePage = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-              <img src="/images/lighting.jpg" alt="Lighting Solutions" className="w-full h-56 object-cover" />
+              <img src="/images/lighting.jpg" alt="Jha Instrument - Lighting Solutions" className="w-full h-56 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-[#306d27]">Lighting</h3>
                 <p className="text-gray-600 mb-4">Custom drivers for Domestic, Industrial, Automotive, and Signaling LED applications.</p>
@@ -117,7 +117,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-              <img src="/images/solar.jpg" alt="Solar" className="w-full h-56 object-cover" />
+              <img src="/images/solar.jpg" alt="JIED India - Solar & Renewable Energy" className="w-full h-56 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-[#306d27]">Solar & Renewable</h3>
                 <p className="text-gray-600 mb-4">Charge Controllers, Inverters, DC-DC Converters, and Motor Controllers (VFD).</p>
@@ -125,7 +125,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-              <img src="/images/automation.jpg" alt="Automotive and Automation" className="w-full h-56 object-cover" />
+              <img src="/images/automation.jpg" alt="Jha Instrument - Automotive & Automation Solutions" className="w-full h-56 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-[#306d27]">Automotive & Automation</h3>
                 <p className="text-gray-600 mb-4">Solutions including Light Drivers, Motor Controllers, Chargers, Sensors, and Remote Control Systems.</p>
@@ -133,7 +133,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-              <img src="/images/more.jpg" alt="More Products" className="w-full h-56 object-cover" />
+              <img src="/images/more.jpg" alt="JIED India - More Products" className="w-full h-56 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-[#306d27]">More Products</h3>
                 <p className="text-gray-600 mb-4">A wide range of power supplies, battery chargers, and motor controllers.</p>

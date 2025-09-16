@@ -25,7 +25,7 @@ export default function Footer() {
 
                 {/* About & Logo */}
                 <div className="space-y-4">
-                    <img src="/images/full_logo.png" alt="JIED Logomark" className="h-20 w-20" />
+                    <img src="/images/full_logo.png" alt="Jha Instrument Logomark" className="h-20 w-20" />
                     <h3 className="text-lg font-semibold">JIED India</h3>
                     <p className="text-sm text-gray-300 leading-relaxed">
                         A technology firm with profound business and functional knowledge, building long-term partnerships with our clients through reliability and quality.

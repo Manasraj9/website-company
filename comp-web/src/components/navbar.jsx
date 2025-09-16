@@ -65,7 +65,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-8 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
-          <img src="/images/logo.png" alt="JIED Logo" className="h-12" />
+          <img src="/images/logo.png" alt="JIED India Logo" className="h-12" />
           {/* <span className="font-bold text-2xl text-white hidden sm:block">JIED India</span> */}
         </a>
 

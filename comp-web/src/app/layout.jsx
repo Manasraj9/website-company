@@ -8,8 +8,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: "JIED India",
-  description: "JIED India",
+  title: "JIED India - Jha Instrument & Engineering Division",
+  description: "Jha Instrument & Engineering Division (JIED) is a leading manufacturer and exporter of electrical and electronics products in India. We specialize in OEM and ODM services, product designing and development, and product prototyping.",
+  keywords: ["JIED India", "Jha Instrument", "electrical products", "electronics products", "OEM services", "ODM services", "product designing", "product development", "product prototyping"],
 };
 
 export default function RootLayout({ children }) {
