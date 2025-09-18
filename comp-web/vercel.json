@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/introduction",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/involvement",
+      "destination": "/services/oem-and-odm",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
