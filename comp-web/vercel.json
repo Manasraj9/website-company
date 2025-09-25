@@ -11,11 +11,6 @@
       "permanent": true
     },
     {
-      "source": "/introduction",
-      "destination": "/introduction",
-      "permanent": true
-    },
-    {
       "source": "/involvement",
       "destination": "/services/oem-and-odm",
       "permanent": true

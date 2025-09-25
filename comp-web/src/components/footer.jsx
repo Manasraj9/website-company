@@ -60,6 +60,10 @@ export default function Footer() {
                             <p>Dhakuria, Kolkata, West Bengal - 700031</p>
                         </div>
                         <div>
+                            <p className="font-bold text-white">Factory Address:</p>
+                            <p>Ward No 11, Jagatpur, Supaul, Bihar - 852110</p>
+                        </div>
+                        <div>
                             <p className="font-bold text-white">Email:</p>
                             <a href="mailto:piyush@jhainstrument.in" className="hover:text-white transition">piyush@jhainstrument.in</a>
                         </div>
