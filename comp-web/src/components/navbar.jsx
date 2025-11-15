@@ -28,6 +28,13 @@ const Navbar = () => {
       ],
     },
     {
+        title: "Trainings", path: "/training"
+    },
+    {
+        title: "Startup Ecosystem", path: "/startup-ecosystem"
+        
+    },
+    {
         title: "Services",
         links: [
             { name: "Product Designing and Development", path: "/services/product-designing-and-development" },

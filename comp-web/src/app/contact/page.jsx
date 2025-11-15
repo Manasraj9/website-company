@@ -2,8 +2,10 @@
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 const ContactPage = () => {
+  const searchParams = useSearchParams();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -17,6 +19,13 @@ const ContactPage = () => {
   const [captchaAnswer, setCaptchaAnswer] = useState('');
   const [captchaValue, setCaptchaValue] = useState(0);
   const [captchaError, setCaptchaError] = useState(false);
+
+  useEffect(() => {
+    const subject = searchParams.get('subject');
+    if (subject) {
+      setFormData((prevFormData) => ({ ...prevFormData, subject }));
+    }
+  }, [searchParams]);
 
   const generateCaptcha = () => {
     const num1 = Math.floor(Math.random() * 10) + 1;
@@ -76,9 +85,6 @@ const ContactPage = () => {
       }
     } catch (err) {
       setError(true);
-    } finally {
-      setLoading(false);
-      generateCaptcha(); // Regenerate captcha after submission attempt
     }
   };
 
@@ -141,7 +147,15 @@ const ContactPage = () => {
                   </div>
                   <div className="mb-4">
                     <label htmlFor="subject" className="block text-lg font-medium mb-2">Subject</label>
-                    <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-lg" required />
+                    <select id="subject" name="subject" value={formData.subject} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-lg" required>
+                      <option value="" disabled>Please select a subject</option>
+                      <option value="Product Inquiry / Request a Quote">Product Inquiry / Request a Quote </option>
+                      <option value="OEM/ODM & R&D Services">OEM/ODM & R&D Services </option>
+                      <option value="Startup Ecosystem Support">Startup Ecosystem Support </option>
+                      <option value="Training Program Inquiry">Training Program Inquiry </option>
+                      {/* <option value="Careers">Careers </option> */}
+                      <option value="General Question / Other">General Question / Other </option>
+                    </select>
                   </div>
                   <div className="mb-4">
                     <label htmlFor="message" className="block text-lg font-medium mb-2">Message</label>

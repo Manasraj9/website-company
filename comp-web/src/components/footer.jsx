@@ -32,10 +32,12 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul className="space-y-3 text-sm text-gray-300">
-                        <li><a href="#about" className="hover:text-white transition">About Us</a></li>
-                        <li><a href="#services" className="hover:text-white transition">Our Involvement</a></li>
-                        <li><a href="#products" className="hover:text-white transition">Product Offerings</a></li>
-                        <li><a href="#contact" className="hover:text-white transition">Contact Us</a></li>
+                        <li><a href="/introduction" className="hover:text-white transition">About Us</a></li>
+                        <li><a href="/involvement" className="hover:text-white transition">Our Involvement</a></li>
+                        <li><a href="/products/Lighting" className="hover:text-white transition">Product Offerings</a></li>
+                        <li><a href="/training" className="hover:text-white transition">Our Trainings</a></li>
+                        <li><a href="/startup-ecosystem" className="hover:text-white transition">Startup Ecosystem</a></li>
+                        <li><a href="/contact" className="hover:text-white transition">Contact Us</a></li>
                     </ul>
                 </div>
 
