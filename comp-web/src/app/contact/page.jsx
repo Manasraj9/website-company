@@ -1,4 +1,5 @@
 "use client"
+export const dynamic = "force-dynamic";  // ⬅ ADD THIS
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import React, { useState, useEffect } from 'react';
