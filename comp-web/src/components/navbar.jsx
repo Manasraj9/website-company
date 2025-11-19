@@ -21,7 +21,7 @@ const Navbar = () => {
     {
       title: "About Us",
       links: [
-        {name: "Introduction", path: "/introduction"},
+        { name: "Introduction", path: "/introduction"},
         { name: "Mission & Vision", path: "/vision" },,
         { name: "Our Involvement", path: "/involvement" },,
         { name: "Strengths", path: "/strengths" },

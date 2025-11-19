@@ -81,33 +81,6 @@ const InvolvementPage = () => {
           </div>
         </section>
 
-        {/* --- 5. OEM & ODM Solutions --- */}
-        <section className="py-16 md:py-20 px-6 bg-[#dcffd8]">
-          <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">OEM & ODM Solutions</h2>
-            <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <p className="text-lg text-gray-700 mb-6">We offer a wide range of products for the OEM & ODM segment.</p>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-700">
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Power Electronics</li>
-                  <li>Wireless</li>
-                  <li>Lighting</li>
-                  <li>Test and Measurement</li>
-                </ul>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Automotive</li>
-                  <li>Automation</li>
-                  <li>Defense</li>
-                  <li>Security system</li>
-                </ul>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Solar</li>
-                  <li>Electric Vehicle</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
 
       </div>
       <Footer />
