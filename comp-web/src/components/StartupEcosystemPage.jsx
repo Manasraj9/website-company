@@ -3,6 +3,78 @@
 import React from 'react';
 
 const StartupEcosystemPage = () => {
+  const startupEcosystemPoints = [
+    {
+      title: "1. Mentoring: From Idea to Prototype",
+      points: [
+        "We help you refine your concept by analyzing its technical feasibility and market fit.",
+        "We guide you in selecting the most effective and cost-efficient components for your product.",
+      ],
+    },
+    {
+      title: "2. Reducing the BOM Cost",
+      points: [
+        "We re-engineer your prototype to reduce costs through smarter design and component choices.",
+        "We leverage our supply chain to source reliable components at competitive prices.",
+      ],
+    },
+    {
+      title: "3. Prototyping & Development",
+      points: [
+        "We provide professional schematic and PCB design services for your product.",
+        "We offer rapid prototyping to help you test your ideas and gather feedback quickly.",
+      ],
+    },
+    {
+      title: "4. Affordable Manufacturing",
+      points: [
+        "We provide end-to-end support, from prototyping to bulk manufacturing, through our EMS ecosystem.",
+        "We offer flexible manufacturing options, accommodating both small and large production volumes.",
+      ],
+    },
+    {
+      title: "5. Upgrade the Specification of the Products",
+      points: [
+        "We help you upgrade your product's specifications to meet market demands.",
+        "We ensure your product remains competitive and relevant.",
+      ],
+    },
+    {
+      title: "6. Redesigning the Idea and the Project to get Market Acceptance",
+      points: [
+        "We assist in redesigning your idea and project for better market acceptance.",
+        "We provide critical feedback to align your product with user expectations.",
+      ],
+    },
+    {
+      title: "7. Improving Product and Product Cost to Survive in Market Competition",
+      points: [
+        "We focus on improving product and cost to ensure you survive in a competitive market.",
+        "We identify cost-saving opportunities without compromising quality.",
+      ],
+    },
+    {
+      title: "8. Providing the Market and Market Feedback",
+      points: [
+        "We provide valuable market insights and feedback to guide your product development.",
+        "We help you understand your target audience and their needs.",
+      ],
+    },
+    {
+      title: "9. Sourcing of Electronics Components and Samples",
+      points: [
+        "We handle the sourcing of electronic components and samples for your prototypes.",
+        "We leverage our network to procure high-quality and cost-effective components.",
+      ],
+    },
+    {
+      title: "10. Help to Design and Development of Molds and Tools",
+      points: [
+        "We assist in the complete design and development of high-quality molds and tools for manufacturing. Our team ensures the tooling is reliable, efficient, and optimized for production needs.",
+        "We also provide molded samples for prototyping and production, helping clients validate designs, test fit and functionality, and move smoothly into mass manufacturing.",
+      ],
+    },
+  ];
   return (
     <div className="bg-white text-[#1E293B]">
 
@@ -36,76 +108,16 @@ const StartupEcosystemPage = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">1. Mentoring: From Idea to Prototype</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We help you refine your concept by analyzing its technical feasibility and market fit.</li>
-                <li>We guide you in selecting the most effective and cost-efficient components for your product.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">2. Reducing the BOM Cost</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We re-engineer your prototype to reduce costs through smarter design and component choices.</li>
-                <li>We leverage our supply chain to source reliable components at competitive prices.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">3. Prototyping & Development</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We provide professional schematic and PCB design services for your product.</li>
-                <li>We offer rapid prototyping to help you test your ideas and gather feedback quickly.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">4. Affordable Manufacturing</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We provide end-to-end support, from prototyping to bulk manufacturing, through our EMS ecosystem.</li>
-                <li>We offer flexible manufacturing options, accommodating both small and large production volumes.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">5. Upgrade the Specification of the Products</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We help you upgrade your product's specifications to meet market demands.</li>
-                <li>We ensure your product remains competitive and relevant.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">6. Redesigning the Idea and the Project to get Market Acceptance</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We assist in redesigning your idea and project for better market acceptance.</li>
-                <li>We provide critical feedback to align your product with user expectations.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">7. Improving Product and Product Cost to Survive in Market Competition</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We focus on improving product and cost to ensure you survive in a competitive market.</li>
-                <li>We identify cost-saving opportunities without compromising quality.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">8. Providing the Market and Market Feedback</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We provide valuable market insights and feedback to guide your product development.</li>
-                <li>We help you understand your target audience and their needs.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">9. Sourcing of Electronics Components and Samples</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We handle the sourcing of electronic components and samples for your prototypes.</li>
-                <li>We leverage our network to procure high-quality and cost-effective components.</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-4">10. Help to Design and Development of Molds and Tools</h3>
-              <ul className="text-gray-700 list-disc list-inside space-y-2">
-                <li>We assist in the design and development of molds and tools for manufacturing.</li>
-                <li>We provide expertise in creating reliable and efficient manufacturing tools.</li>
-              </ul>
-            </div>
+            {startupEcosystemPoints.map((item, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform duration-300">
+                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
+                <ul className="text-gray-700 list-disc list-inside space-y-2">
+                  {item.points.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>
