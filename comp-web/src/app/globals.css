@@ -24,3 +24,22 @@
 .navlink:hover {
   color: white; /* <-- text becomes white */
 }
+
+@media (max-width: 768px) {
+  .mobile-scroll {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;   /* Internet Explorer 10+ */
+  }
+
+  .mobile-scroll::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .mobile-scroll > * {
+    flex-shrink: 0;
+    margin-right: 1rem;
+  }
+}

@@ -11,11 +11,6 @@
       "permanent": true
     },
     {
-      "source": "/involvement",
-      "destination": "/services/oem-and-odm",
-      "permanent": true
-    },
-    {
       "source": "/wp-content/:path*",
       "destination": "/",
       "permanent": true

@@ -3,6 +3,29 @@
 import React from 'react';
 
 const IntroductionPage = () => {
+  const teamData = [
+    {
+      "name": "Piyush Kumar Jha",
+      "intro": "Founder",
+      "image": "/images/team/founder.png"
+    },
+    {
+      "name": "Pooja Jha",
+      "intro": "Manager",
+      "image": "/images/team/founder.png"
+    },
+    {
+      "name": "Satendra Jha",
+      "intro": "Manager",
+      "image": "/images/team/founder.png"
+    },
+    {
+      "name": "Manas Raj",
+      "intro": "",
+      "image": "/images/team/founder.png"
+    }
+  ];
+
   return (
     <div className="bg-white text-[#1E293B]">
 
@@ -49,7 +72,7 @@ const IntroductionPage = () => {
                   <li><strong>CORPORATION NAME:</strong> JHA INSTRUMENT</li>
                   <li><strong>Trademark:</strong> JIED</li>
                   <li><strong>REGISTERED ADDRESS:</strong> Ward No-11, Jagatpur, Supaul , Bihar, India (PIN CODE – 852110)</li>
-                  <li><strong>GSTIN:</strong> 10AALFJ5935E1ZL</li>
+                  <li><strong>GSTIN:</strong> 10XXXXXXXXXXXZL</li>
                 </ul>
               </div>
               <div>
@@ -61,6 +84,25 @@ const IntroductionPage = () => {
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* --- Our Team Section --- */}
+      <section className="py-16 md:py-20 px-6 bg-gray-100">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">Our Core Team Members</h2>
+            <p className="text-base md:text-lg text-gray-600 mt-2">Meet the dedicated professionals behind our success.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {teamData.map((member, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center transform hover:-translate-y-2 transition-transform duration-300">
+                <img src={member.image} alt={member.name} className="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg border-4 border-[#0e5604]" />
+                <h3 className="text-xl font-semibold">{member.name}</h3>
+                <p className="text-gray-600">{member.intro}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

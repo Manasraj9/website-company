@@ -75,6 +75,14 @@ const StartupEcosystemPage = () => {
       ],
     },
   ];
+
+  const galleryImages = [
+    { src: '/images/gallery/1.png', alt: 'Gallery image 1' },
+    { src: '/images/gallery/2.png', alt: 'Gallery image 2' },
+    { src: '/images/gallery/3.png', alt: 'Gallery image 3' },
+    { src: '/images/gallery/4.png', alt: 'Gallery image 4' },
+  ];
+
   return (
     <div className="bg-white text-[#1E293B]">
 
@@ -116,6 +124,22 @@ const StartupEcosystemPage = () => {
                     <li key={i}>{point}</li>
                   ))}
                 </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-20 px-6 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">Our Gallery</h2>
+            <p className="text-lg text-gray-700 mt-2">A glimpse into our innovation and work.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {galleryImages.map((image, index) => (
+              <div key={index} className="overflow-hidden rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                <img src={image.src} alt={image.alt} className="w-full h-full object-cover" />
               </div>
             ))}
           </div>
