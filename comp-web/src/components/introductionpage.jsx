@@ -1,6 +1,7 @@
 
 "use client"
 import React from 'react';
+import AboutUsSubnav from './AboutUsSubnav';
 
 const IntroductionPage = () => {
   const teamData = [
@@ -51,6 +52,7 @@ const IntroductionPage = () => {
           </p>
         </div>
       </section>
+      <AboutUsSubnav />
       {/* --- 3. Introduction Text Section --- */}
       <section className="py-16 md:py-20 px-6 bg-[#dcffd8]">
         <div className="container mx-auto">

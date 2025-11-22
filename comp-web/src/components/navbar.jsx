@@ -20,10 +20,11 @@ const Navbar = () => {
     { title: "Home", path: "/" },
     {
       title: "About Us",
+      path: "/introduction",
       links: [
         { name: "Introduction", path: "/introduction"},
-        { name: "Mission & Vision", path: "/vision" },,
-        { name: "Our Involvement", path: "/involvement" },,
+        { name: "Mission & Vision", path: "/vision" },
+        { name: "Our Involvement", path: "/involvement" },
         { name: "Strengths", path: "/strengths" },
       ],
     },
@@ -36,14 +37,16 @@ const Navbar = () => {
     },
     {
         title: "Services",
+        path: "/services/product-designing-and-development",
         links: [
             { name: "Product Designing and Development", path: "/services/product-designing-and-development" },
             { name: "Product Prototyping", path: "/services/product-prototyping" },
             { name: "OEM & ODM", path: "/services/oem-and-odm" },
         ]
     },
-        { 
+    { 
       title: "Products",
+      path: "/products/Lighting",
       links: [
         { name: "Lighting", path: "/products/Lighting" },
         { name: "Solar", path: "/products/Solar" },
@@ -51,7 +54,7 @@ const Navbar = () => {
         { name: "Automation", path: "/products/Automation" },
         { name: "More Products", path: "/products/More%20Products" },
       ],
-    },,
+    },
     { title: "Contact", path: "/contact" },
   ];
 
@@ -66,6 +69,50 @@ const Navbar = () => {
       setOpenMenu(null);
     }, 300);
   };
+
+  const MobileAccordion = ({ menu, setMobileOpen }) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const TitleComponent = menu.path ? 'a' : 'span';
+    const titleProps = menu.path ? { 
+        href: menu.path,
+        onClick: () => setMobileOpen(false)
+    } : {};
+
+    return (
+        <>
+            <div className="flex justify-between items-center hover:bg-gray-100 rounded">
+                <TitleComponent
+                    {...titleProps}
+                    className="py-2 px-3 font-semibold text-gray-800 flex-grow"
+                >
+                    {menu.title}
+                </TitleComponent>
+                <span
+                    className="p-2 cursor-pointer"
+                    onClick={() => setIsOpen(!isOpen)}
+                >
+                   <span className={`transition-transform duration-300 inline-block ${isOpen ? 'rotate-90' : ''}`}>▶</span>
+                </span>
+            </div>
+            {isOpen && (
+                <ul className="pl-4 border-l-2 border-gray-200 ml-3">
+                    {menu.links.map((link, i) => (
+                        <li key={i}>
+                            <a
+                                href={link.path}
+                                className="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded"
+                                onClick={() => setMobileOpen(false)}
+                            >
+                                {link.name}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            )}
+        </>
+    )
+}
 
   return (
     <nav className="bg-[#0e5604] shadow-lg relative">
@@ -98,11 +145,11 @@ const Navbar = () => {
               {/* Case 1: Dropdown Menu */}
               {menu.links ? (
                 <>
-                  <button className="text-white font-medium relative group transition-colors duration-300 ">
+                  <a href={menu.path ? menu.path : '#'} className="text-white font-medium relative group transition-colors duration-300 ">
                     <span>{menu.title}</span>
                     {/* THE ANIMATED UNDERLINE */}
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center"></span>
-                  </button>
+                  </a>
 
                   {openMenu === idx && (
                     <ul className="absolute left-1/2 -translate-x-1/2 mt-2 bg-[#0e5604] text-white shadow-xl border rounded-md w-56 z-50">
@@ -156,25 +203,7 @@ const Navbar = () => {
           {menus.map((menu, idx) => (
             <li key={idx}>
               {menu.links ? (
-                <details className="group">
-                  <summary className="cursor-pointer py-2 px-3 font-semibold text-gray-800 list-none flex justify-between items-center hover:bg-gray-100 rounded">
-                    {menu.title}
-                    <span className="transition-transform duration-300 group-open:rotate-90">▶</span>
-                  </summary>
-                  <ul className="pl-4 border-l-2 border-gray-200 ml-3">
-                    {menu.links.map((link, i) => (
-                      <li key={i}>
-                        <a
-                          href={link.path}
-                          className="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded"
-                          onClick={() => setMobileOpen(false)}
-                        >
-                          {link.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
+                <MobileAccordion menu={menu} setMobileOpen={setMobileOpen} />
               ) : (
                 <a
                   href={menu.path}

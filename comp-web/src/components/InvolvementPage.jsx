@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import AboutUsSubnav from './AboutUsSubnav';
 
 const InvolvementPage = () => {
   return (
@@ -19,6 +20,7 @@ const InvolvementPage = () => {
           </p>
         </div>
       </section>
+      <AboutUsSubnav />
 
       {/* --- 2. Product Design Consultancy --- */}
       <section className="py-16 md:py-20 px-6 bg-[#F8FAFC]">

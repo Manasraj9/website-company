@@ -6,6 +6,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+import ProductsSubnav from '@/components/ProductsSubnav';
 
 const ProductCategoryPage = () => {
   const [subcategories, setSubcategories] = useState([]);
@@ -55,9 +56,9 @@ const ProductCategoryPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-white text-[#1E293B] py-16 md:py-20 px-6">
-        <div className="container mx-auto">
-          <h1 className="text-2xl font-bold text-center mb-12">{decodeURIComponent(category || '')}</h1>
+      <ProductsSubnav />
+      <div className="bg-white text-[#1E293B] px-6">
+        <div className="container mx-auto py-16 md:py-20">
           <div className="flex flex-wrap justify-center mb-12">
             {subcategories.map((subcategory, index) => (
               <div

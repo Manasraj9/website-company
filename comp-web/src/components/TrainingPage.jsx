@@ -1,11 +1,22 @@
-
 "use client"
 import React from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation'; 
 
 const TrainingPage = () => {
+  const pathname = usePathname(); 
+
+  const getLinkClass = (path) => {
+    const isActive = pathname === path;
+    return {
+      text: isActive ? "text-[#306d27] font-semibold" : "text-gray-600 font-medium group-hover:text-[#306d27]",
+      underline: isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100",
+    };
+  };
   return (
     <div className="bg-white text-[#1E293B]">
 
+      {/* --- 1. Hero Section --- */}
       <section 
           className="relative bg-cover bg-center text-white py-24 md:py-40 px-6"
           style={{ backgroundImage: "url('/images/bg.png')" }}
@@ -19,8 +30,46 @@ const TrainingPage = () => {
               We offer practical training programs for students and professionals in Power Electronics, Automation, and Embedded Systems.
             </p>
           </div>
-        </section>
+      </section>
+
+      <div className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-20">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between h-14">
+            
+            {/* Left Side: Navigation Tabs */}
+            <div className="flex items-center gap-8 w-full md:w-auto overflow-x-auto no-scrollbar">
+              
+              {/* Tab 1: Trainings */}
+              {/* We use Link for BOTH so you can navigate back and forth */}
+              <Link href="/training" className="relative h-14 flex items-center cursor-pointer group">
+                <span className={`${getLinkClass('/training').text} text-base transition-colors whitespace-nowrap`}>
+                  Trainings
+                </span>
+                {/* The Underline (Dynamic) */}
+                <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-[#306d27] transition-transform duration-300 origin-left ${getLinkClass('/training').underline}`}></div>
+              </Link>
+
+              {/* Tab 2: Startup Ecosystem */}
+              <Link href="/startup-ecosystem" className="relative h-14 flex items-center cursor-pointer group">
+                <span className={`${getLinkClass('/startup-ecosystem').text} text-base transition-colors whitespace-nowrap`}>
+                  Startup Ecosystem
+                </span>
+                {/* The Underline (Dynamic) */}
+                <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-[#306d27] transition-transform duration-300 origin-left ${getLinkClass('/startup-ecosystem').underline}`}></div>
+              </Link>
+
+            </div>
+
+            {/* Right Side: Breadcrumb (Optional - keeping layout consistent) */}
+            <div className="hidden md:flex items-center gap-2 text-sm text-gray-500">
+               {/* You can make this dynamic too if needed, or just keep it static per page */}
+            </div>
+
+          </div>
+        </div>
+      </div>
       
+      {/* --- 3. Program Overview --- */}
       <section className="py-16 md:py-20 px-6 bg-[#dcffd8]">
         <div className="container mx-auto">
           <div className="text-center mb-12">
@@ -33,23 +82,31 @@ const TrainingPage = () => {
         </div>
       </section>
 
+      {/* --- 4. Training Types --- */}
       <section className="py-16 md:py-20 px-6">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Types of Trainings We Provide</h2>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">PCB Designing</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Microcontroller Programming</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Design of Power Electronics Devices</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Design of Embedded System</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Developing the Embedded Software</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Designing IT Hardware</span>
-            <span className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">Designing of RF Hardware</span>
+            {[
+              "PCB Designing", 
+              "Microcontroller Programming", 
+              "Design of Power Electronics Devices", 
+              "Design of Embedded System", 
+              "Developing the Embedded Software", 
+              "Designing IT Hardware", 
+              "Designing of RF Hardware"
+            ].map((item, index) => (
+              <span key={index} className="bg-gray-200 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full hover:bg-[#306d27] hover:text-white transition-colors duration-300 cursor-pointer">
+                {item}
+              </span>
+            ))}
           </div>
         </div>
       </section>
 
+      {/* --- 5. Classroom vs Online --- */}
       <section className="py-16 md:py-20 px-6">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -79,6 +136,7 @@ const TrainingPage = () => {
         </div>
       </section>
 
+      {/* --- 6. Footer CTA --- */}
       <section className="py-16 md:py-20 px-6 bg-gray-100">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Learning?</h2>

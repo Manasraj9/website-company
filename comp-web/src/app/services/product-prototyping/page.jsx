@@ -2,6 +2,7 @@
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import React from 'react';
+import ServicesSubnav from '@/components/ServicesSubnav';
 
 const ProductPrototypingPage = () => {
   return (
@@ -23,6 +24,7 @@ const ProductPrototypingPage = () => {
             </p>
           </div>
         </section>
+        <ServicesSubnav />
 
         {/* --- 2. Content Section --- */}
         <section className="py-16 md:py-20 px-6 bg-[#F8FAFC]">

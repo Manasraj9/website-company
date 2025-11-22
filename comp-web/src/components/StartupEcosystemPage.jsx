@@ -1,8 +1,20 @@
 
 "use client"
 import React from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation'; 
 
 const StartupEcosystemPage = () => {
+  const pathname = usePathname(); 
+
+  const getLinkClass = (path) => {
+    const isActive = pathname === path;
+    return {
+      text: isActive ? "text-[#306d27] font-semibold" : "text-gray-600 font-medium group-hover:text-[#306d27]",
+      underline: isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100",
+    };
+  };
+
   const startupEcosystemPoints = [
     {
       title: "1. Mentoring: From Idea to Prototype",
@@ -100,6 +112,43 @@ const StartupEcosystemPage = () => {
             </p>
           </div>
         </section>
+
+        <div className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-20">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between h-14">
+            
+            {/* Left Side: Navigation Tabs */}
+            <div className="flex items-center gap-8 w-full md:w-auto overflow-x-auto no-scrollbar">
+              
+              {/* Tab 1: Trainings */}
+              {/* We use Link for BOTH so you can navigate back and forth */}
+              <Link href="/training" className="relative h-14 flex items-center cursor-pointer group">
+                <span className={`${getLinkClass('/training').text} text-base transition-colors whitespace-nowrap`}>
+                  Trainings
+                </span>
+                {/* The Underline (Dynamic) */}
+                <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-[#306d27] transition-transform duration-300 origin-left ${getLinkClass('/training').underline}`}></div>
+              </Link>
+
+              {/* Tab 2: Startup Ecosystem */}
+              <Link href="/startup-ecosystem" className="relative h-14 flex items-center cursor-pointer group">
+                <span className={`${getLinkClass('/startup-ecosystem').text} text-base transition-colors whitespace-nowrap`}>
+                  Startup Ecosystem
+                </span>
+                {/* The Underline (Dynamic) */}
+                <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-[#306d27] transition-transform duration-300 origin-left ${getLinkClass('/startup-ecosystem').underline}`}></div>
+              </Link>
+
+            </div>
+
+            {/* Right Side: Breadcrumb (Optional - keeping layout consistent) */}
+            <div className="hidden md:flex items-center gap-2 text-sm text-gray-500">
+               {/* You can make this dynamic too if needed, or just keep it static per page */}
+            </div>
+
+          </div>
+        </div>
+      </div>
       
       <section className="py-16 md:py-20 px-6 bg-[#dcffd8]">
         <div className="container mx-auto">

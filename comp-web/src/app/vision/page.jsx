@@ -2,6 +2,7 @@
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import React from 'react';
+import AboutUsSubnav from '@/components/AboutUsSubnav';
 
 const VisionPage = () => {
   return (
@@ -23,6 +24,7 @@ const VisionPage = () => {
             </p>
           </div>
         </section>
+        <AboutUsSubnav />
 
         {/* --- 2. Mission & Vision Section --- */}
         <section className="py-16 md:py-20 px-6 bg-[#F8FAFC]">
