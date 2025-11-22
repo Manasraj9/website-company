@@ -67,7 +67,7 @@ export default function Footer() {
                         </div>
                         <div>
                             <p className="font-bold text-white">Email:</p>
-                            <a href="mailto:piyush@jhainstrument.in" className="hover:text-white transition">piyush@jhainstrument.in</a>
+                            <a href="mailto:info@jhainstrument.in" className="hover:text-white transition">info@jhainstrument.in</a>
                         </div>
                         <div className="flex gap-5 mt-4 sm:mt-0">
                             <a href="https://facebook.com/jhainstrument" target="_blank" rel="noopener noreferrer" className="hover:text-white transition"><Facebook size={20} /></a>

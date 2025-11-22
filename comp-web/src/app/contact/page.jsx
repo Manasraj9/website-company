@@ -40,6 +40,7 @@ const ContactPage = () => {
                   <p className="mt-4"><a href="http://www.jhainstrument.in" className="hover:underline">www.jhainstrument.in</a></p>
                   <p><a href="mailto:piyush@jhainstrument.in" className="hover:underline">piyush@jhainstrument.in</a></p>
                   <p><a href="mailto:piyushjha.bs.in@gmail.com" className="hover:underline">piyushjha.bs.in@gmail.com</a></p>
+                  <p><a href="mailto:info@jhainstrument.in" className="hover:underline">info@jhainstrument.in</a></p>
                   <p>PH: 9431073402</p>
                 </div>
 
